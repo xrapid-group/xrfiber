@@ -1,6 +1,8 @@
+
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+
 
 xRFiber Standard Operating Procedure
 ---
@@ -745,9 +747,8 @@ Based on these results, baring the natural deviations due to the randomness of t
 
 The confidence values reported in the results are calculated using the equations given in NIOSH 7400, which describe the lower confidence limit (LCL) and higher confidence limit (HCL), as(fn):
 
-$$ LCL(n) = \frac{2n + {2.6}^{2} - \sqrt{{({2.6}^{2} + 2n)}^{2} - 4(1 - {2.6}^{2}\text{Sr}^{2})n^{2}}}{2(1 - {2.6}^{2}\text{Sr}^{2})} $$
 
-$$HCL(n) = \frac{2n + {1.8}^{2} - \sqrt{{({1.8}^{2} + 2n)}^{2} - 4(1 - {1.8}^{2}\text{Sr}^{2})n^{2}}}{2(1 - {1.8}^{2}\text{Sr}^{2})}$$
+$$ 2.6^2 = n $$
 
 where n is the number of fibers detected, and Sr is a “subjective inter-laboratory relative standard deviation, which is close to the total inter-laboratory Sr when approximately 100 fibers are counted”.
 
