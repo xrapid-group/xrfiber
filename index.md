@@ -1,11 +1,5 @@
----
-title: |
-![]
-
 xRFiber Standard Operating Procedure
 ---
-
-!\[]\[1]
 
 Document Revision: 1.1
 
@@ -13,7 +7,7 @@ App Version: 1.60 Build: 597
 
 This page intentionally blank
 
-#1. PURPOSE chapter1
+# 1. PURPOSE
 
 This document describes the standard operating procedure of the xRfiber platform.
 
@@ -23,11 +17,9 @@ Although a training is provided when a unit is deployed in a laboratory, this do
 
 If an information is requested, particularly if relevant and not found in the document, the user is welcome to contact [support@xrapid-group.com] for any further question.
 
-#2. CONTEXT
+# 2. CONTEXT
 
 -   These instructions are for the use of researchers, technicians and operators in general who are performing air samples fiber diagnostics.
-
-<!-- -->
 
 -   This SOP contains general guidelines for the analysis of samples only. Please refer to relevant standards for samples preparation.
 
@@ -43,15 +35,11 @@ xRapid Group has developed a fully automated microscope, patent pending, which c
 
 -   Phase contrast microscope, with phase condenser ring 40×.
 
-<!-- -->
-
 -   Objectives: 40× PCM (5 spots on the turret, 10× PCM optional)
 
 ### 2.2.2. Illumination
 
 -   Kohler illumination
-
-<!-- -->
 
 -   LED light source, 3W
 
@@ -59,23 +47,17 @@ xRapid Group has developed a fully automated microscope, patent pending, which c
 
 -   12V-3A power source for 100-240V 0.8A mains, EU-UK-USA-AUS adapters (CE)
 
-<!-- -->
-
 -   USB-A plug charge only for iPhone/iPad Pro 10.5’’ (5V, 2A), USB-C plug charge for iPad Pro 11’’ (5V, 3A and 9V, 2A)
 
 ### 2.2.4. Eyepiece
 
 -   Two eyepieces, standard 30mm tube diameter.
 
-<!-- -->
-
 -   One third eye with a 10× (23mm diameter) eyepiece mounted on collapsible tube, factory centered, on which a cradle support for iPhone/iPad is attached.
 
 ### 2.2.5. Motorized stage
 
 -   X&Y displacement by steps of 125µm and 220µm, respectively
-
-<!-- -->
 
 -   Z displacement by steps of 0.5µm or 0.25µm in sequences
 
@@ -95,8 +77,6 @@ xRapid Group has developed a fully automated microscope, patent pending, which c
 
 -   iPhone 7 or 8
 
-<!-- -->
-
 -   iPad Pro 10.5”, iPad Pro 11’’
 
 -   Additional devices possible, requires additional mounts
@@ -108,8 +88,6 @@ xRapid Group has developed a fully automated microscope, patent pending, which c
 ### 2.2.7. Control app
 
 -   Fully automated diagnostic with return to the original point of measure
-
-<!-- -->
 
 -   Average diagnostic time per slide lower than 3 minutes
 
@@ -131,8 +109,6 @@ xRapid Group has developed a fully automated microscope, patent pending, which c
 
 -   Working capture resolution at 40× is ≈14 pixels per µm
 
-<!-- -->
-
 -   Scale and gratings/grids displayed by software, factory calibrated to standard traceable micrometer calibration slides (Ted Pella slides 2280-11, 2280-13, 2280-15)
 
 -   Virtual Walton-Beckett graticule displayed in app. Dimensions within 0.5% tolerance on 100µm WB graticule diameter
@@ -142,8 +118,6 @@ xRapid Group has developed a fully automated microscope, patent pending, which c
 ### 2.2.9. Accessories
 
 -   Telescope for ring position adjustment
-
-<!-- -->
 
 -   Leveling tool
 
@@ -156,8 +130,6 @@ xRapid Group has developed a fully automated microscope, patent pending, which c
 ### 2.2.10. Controller (optional)
 
 -   Nimbus bluetooth controller
-
-<!-- -->
 
 -   Controller paired permanently to the iPhone/iPad
 
@@ -174,28 +146,18 @@ xRfiber supports a large number of standards, which come with specificities, whe
 The following standards are currently supported:
 
 -   NIOSH 7400 (Type A & B)
-
-<!-- -->
-
 -   OSHA id 160
-
 -   NOSHC-3003
-
 -   IRSST 243-1
-
 -   HSG248
-
 -   NF X43-269
-
 -   NBN T 96-102
 
 Four sample geometries and therefore paths are supported: quarter disk oriented right or up, and half disk oriented horizontally or vertically.
 
-#3. SAFETY NOTES
+# 3. SAFETY NOTES
 
 -   Always carry the microscope with two hands, wear protective clothing and shoes when moving equipment. It is advisable to place one hand under the base of the box for extra support.
-
-<!-- -->
 
 -   When opening the box, make sure that the top is facing upwards.
 
@@ -231,8 +193,6 @@ The following items are required for the operation of xRfiber platform.
 
 -   A cleared and clean laboratory space, if possible with constant lighting and in a low vibration environment
 
-<!-- -->
-
 -   A free power outlet
 
 -   At least one dedicated technician
@@ -249,13 +209,11 @@ The following items are required for the operation of xRfiber platform.
 
 -   Optionally a networked printer.
 
-#5. RESPONSIBILITIES
+# 5. RESPONSIBILITIES
 
 It is the responsibility of the user to ensure that:
 
 -   The microscope unit is functioning properly, and report to support@xrapid-group.com in case there is any doubt that it does
-
-<!-- -->
 
 -   The power supply is connected to a stable source of 110V or 220V, depending on the local environment
 
@@ -277,19 +235,16 @@ Additionally, the best results are obtained when:
 
 -   The slides are well prepared
 
-<!-- -->
-
 -   The initial focus is on the surface of the filter.
 
-#6. PROCEDURE
+# 6. PROCEDURE
 
-##6.1. Hardware
+## 6.1. Hardware
 
 ### 6.1.1. Components
 
 The xRfiber microscope components are shown in Figure 6.1, additional components in the box are shown in Figure 6.2.
 
----- 
   1 Power Switch                                 11 Stage Clip
   2 Power Adapter Port                           12 X-Axis End Stops with Cover
   3 USB Charging Port                            13 40x Plan PH2 Objective
@@ -300,13 +255,10 @@ The xRfiber microscope components are shown in Figure 6.1, additional components
   8 Phase Ring Holder                            18 Adjustable C-Mount Adapter
   9 Condenser Iris Diaphragm                     19 iPhone/iPad Cradle
   10 Microscope Stage                            20 Ocular Locking Screws
----- 
 
-!\[]\[2]
 
 Figure 6.1. xRfiber Microscope components
 
-!\[]\[3]
 
 Figure 6.2. Additional components in the box
 
@@ -318,7 +270,7 @@ Figure 6.2. Additional components in the box
   25 Plug Adapter           33 Allen Wrench H1.5
   26 Power Supply           34 Torx T10
   27 Telescopic Eyepiece    
-  28 Eyepiece Cap   ------------------------- -----------------------------
+  28 Eyepiece Cap 
 
 ### 6.1.2. Installation
 
@@ -1155,12 +1107,9 @@ In most cases the results will show that the Poisson distribution is not valid o
 
 We are working actively on a way to discriminate contaminated air samples. In the meantime, we recommend that the slide is checked manually when both Poisson distributions are invalid. We do also welcome anomalous images captured using xRfiber from our users: this is included, after proper vetting, into our database of images for training our AI, so that this anomaly is properly accounted for the next time it is encountered.
 
-#7.   CHECKLISTS
-	
-	1.  Proficiency testing
-		---- 
+# 7.   CHECKLISTS
 
-<!-- -->
+# 7.1.  Proficiency testing
 
 1.  Installation and training complete
 	
@@ -1210,10 +1159,9 @@ We are working actively on a way to discriminate contaminated air samples. In th
 
 7.  Data sheet completed.
 	
-	1.  Starting a series of measurements
-		---- 
 
-<!-- -->
+
+1.  Starting a series of measurements
 
 1.  microscope plugged to the power source
 
@@ -1265,7 +1213,7 @@ We are working actively on a way to discriminate contaminated air samples. In th
 
 25. Periodically check that the rings are aligned.
 
-#8. REFERENCES
+# 8. REFERENCES
 
 NIOSH7400: Asbestos and other fibers by PCM 7400, 2019. NIOSH Manual of Analytical Methods, Fifth edition. *This revision replaces Method 7400, issue 2 (dated 08/15/1994)*
 
