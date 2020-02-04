@@ -741,7 +741,7 @@ Based on these results, baring the natural deviations due to the randomness of t
 
 The confidence values reported in the results are calculated using the equations given in NIOSH 7400, which describe the lower confidence limit (LCL) and higher confidence limit (HCL), as(fn):
 
-$$LCL(n) = \frac{2n + {2.6}^{2} - \sqrt{{({2.6}^{2} + 2n)}^{2} - 4(1 - {2.6}^{2}\text{Sr}^{2})n^{2}}}{2(1 - {2.6}^{2}\text{Sr}^{2})}$$
+$$ LCL(n) = \frac{2n + {2.6}^{2} - \sqrt{{({2.6}^{2} + 2n)}^{2} - 4(1 - {2.6}^{2}\text{Sr}^{2})n^{2}}}{2(1 - {2.6}^{2}\text{Sr}^{2})} $$
 
 $$HCL(n) = \frac{2n + {1.8}^{2} - \sqrt{{({1.8}^{2} + 2n)}^{2} - 4(1 - {1.8}^{2}\text{Sr}^{2})n^{2}}}{2(1 - {1.8}^{2}\text{Sr}^{2})}$$
 
