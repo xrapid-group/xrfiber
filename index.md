@@ -21,7 +21,7 @@ xRfiber comprises a motorized microscope that is wirelessly operated by an iPhon
 
 Although a training is provided when a unit is deployed in a laboratory, this document should also be read, understood and referred to when questions arise.
 
-If an information is requested, particularly if relevant and not found in the document, the user is welcome to contact [support@xrapid-group.com] for any further question.
+If an information is requested, particularly if relevant and not found in the document, the user is welcome to contact \[support@xrapid-group.com] for any further question.
 
 # 2. CONTEXT
 
@@ -31,7 +31,7 @@ If an information is requested, particularly if relevant and not found in the do
 
 -   This SOP is not a substitute for the standards, the machine and software are used within the frame of standards and/or recommendations but do not replace them.
 
-## 2.1. Main characteristics 
+## 2.1. Main characteristics
 
 xRapid Group has developed a fully automated microscope, patent pending, which consists in a phase contrast microscope (PCM) retrofitted with a set of motors to control the stage movement in three orthogonal directions (x, y and z) with various accuracies. This enables a full sample (a quarter disk of 1” diameter mounted on a glass slide) to be imaged within a few minutes. A series of images are taken by an iPhone or iPad at increasing depths, from which an autofocus measure is calculated to image the next field. At the same time, a convolutional neural network (CNN) is used for our AI to characterize the objects in the field of view. All the analysis is performed locally on the device, none of the images are uploaded to a server, so that remote work in a poorly connected area is permitted. While we usually refer to AI as Deep Learning, one should notice that xRfiber system is not self-learning: all the data has been extracted by humans, and validated by humans. The system shipped is not evolving between updates of the app, which enables to guarantee its performance and pass a certification.
 
@@ -145,7 +145,7 @@ xRapid Group has developed a fully automated microscope, patent pending, which c
 
 -   4 buttons, right, for fine focus adjustment
 
-## 2.3. Standards and paths 
+## 2.3. Standards and paths
 
 xRfiber supports a large number of standards, which come with specificities, whether they are about the objects counted (for example, some standards specifically request *not* to count objects that are touching debris, while others have different strategies), or about the path that one must apply to scan the sample.
 
@@ -193,7 +193,7 @@ Four sample geometries and therefore paths are supported: quarter disk oriented 
 
 -   Do not open the back of the microscope without being grounded, as this may result in electric shocks/hazards.
 
-#4. PREREQUISITES
+# 4. PREREQUISITES
 
 The following items are required for the operation of xRfiber platform.
 
@@ -275,8 +275,7 @@ Figure 6.2. Additional components in the box
   24 Level                  32 Allen Wrench H2.5
   25 Plug Adapter           33 Allen Wrench H1.5
   26 Power Supply           34 Torx T10
-  27 Telescopic Eyepiece    
-  28 Eyepiece Cap 
+  27 Telescopic Eyepiece   28 Eyepiece Cap 
 
 ### 6.1.2. Installation
 
@@ -448,7 +447,7 @@ The ideal situation is shown below: the device both on stage and in cradle shoul
 
 Figure 6.8. unbalanced (left) and perfectly flat orientations of the iPhone in its cradle and on stage
 
-##6.2. Device (iPhone/iPad) setup 
+## 6.2. Device (iPhone/iPad) setup
 
 After going through Apple’s initialization guide, ensure the following:
 
@@ -462,7 +461,7 @@ Open the Apple App Store and select the Search tab in the bottom right of the sc
 
 **NOTE**: when the microscope is switched on, the light first blinks three times. It is an indicator that the Bluetooth has been initialized and the microscope is now ready to interact with the Software (the xRfiber app).
 
-##6.3. Operating the software
+## 6.3. Operating the software
 
 The xRfiber app has many features to facilitate not only the diagnostic, but also the review of results. We will now examine the various screens and functionalities of the app.
 
@@ -576,7 +575,7 @@ Three entries are possible to customize the tests:
 
 -   The capture scale, in pixels per micrometer: this value is calibrated using a traceable micrometer slide before shipping to the customer, and checked during first deployment and any servicing of the machine. Normal value is 14.1 with a maximum error of 0.5%. It is recommended that this value is checked once a month.
 
--   Number of Walton-Beckett graticules: the newest iPad Pro 11’’ are capable of large computations, and as such it does make sense to measure more than one field per image captured. The image resolution is not changing between the two modes, and we can benefit from adding a second graticule, i.e. using the image captured for two fields instead of one. When doing so, we perform half the movements and therefore gain all these displacement times. In the case where two graticules are used, one should check that the scale is the same for both, or refrain from using two if this is the case. Should both graticules not have the same scale, the user should contact [support@xrapid-group.com] for immediate intervention/remediation.
+-   Number of Walton-Beckett graticules: the newest iPad Pro 11’’ are capable of large computations, and as such it does make sense to measure more than one field per image captured. The image resolution is not changing between the two modes, and we can benefit from adding a second graticule, i.e. using the image captured for two fields instead of one. When doing so, we perform half the movements and therefore gain all these displacement times. In the case where two graticules are used, one should check that the scale is the same for both, or refrain from using two if this is the case. Should both graticules not have the same scale, the user should contact \[support@xrapid-group.com] for immediate intervention/remediation.
 
 Notice that those last three settings are entirely optional.
 
@@ -648,7 +647,7 @@ Figure 6.17. Results export options
 
 There are two options to export as CSV: one can either export the full result, or export the raw fiber counts data. In the latter case, a table of groups of 5 rows with 5 columns will be exported. All those raw counts are usually easy to copy and paste into LIMS systems.
 
-The iOS system is complete, and as such it is possible to export to other networked devices. In cases of mixed ecosystems, eg. PCs which are frequently used in laboratory settings, one can export from the iPad or iPhone (running iOS 13) to a thumb drive and use this device to transfer data. Feel free to contact [support@xrapid-group.com] should you need a recommendation for adapters and/or thumb drives.
+The iOS system is complete, and as such it is possible to export to other networked devices. In cases of mixed ecosystems, eg. PCs which are frequently used in laboratory settings, one can export from the iPad or iPhone (running iOS 13) to a thumb drive and use this device to transfer data. Feel free to contact \[support@xrapid-group.com] should you need a recommendation for adapters and/or thumb drives.
 
 6.4. Calibration
 ---- 
@@ -748,7 +747,7 @@ Based on these results, baring the natural deviations due to the randomness of t
 The confidence values reported in the results are calculated using the equations given in NIOSH 7400, which describe the lower confidence limit (LCL) and higher confidence limit (HCL), as(fn):
 
 
-$$ 2.6^2 = n $$
+$$ LCL(n) = \frac{2n+2.6^2-\sqrt{(2.6^2+2n)^2-4(1-2.6^2Sr^2)n^2}{2(1-2.6^2Sr^2)}} $$
 
 where n is the number of fibers detected, and Sr is a “subjective inter-laboratory relative standard deviation, which is close to the total inter-laboratory Sr when approximately 100 fibers are counted”.
 
@@ -756,7 +755,7 @@ The latest revision of NIOSH 7400 states that “From these equations, the confi
 
 ### 6.4.5. Results of Proficiency test rounds
 
-The results obtained at some customer sites using xRfiber are reported in the three following tables. Should your results differ greatly from those, please contact [support@xrapid-group.com] .
+The results obtained at some customer sites using xRfiber are reported in the three following tables. Should your results differ greatly from those, please contact \[support@xrapid-group.com] .
 
 Table 6.1: Results of IHPAT round 217
 
@@ -962,9 +961,9 @@ For any other issue, please contact the xRapid support team at support@xrapid-gr
 
 -   Check that the slide is really blank: frequent cases of contamination on unsealed slides have been observed
 
--   Contact [support@xrapid-group.com] in case of doubt.
+-   Contact \[support@xrapid-group.com] in case of doubt.
 
-##6.8. Limitations
+## 6.8. Limitations
 
 The app is known to have some limitations when samples are damaged or have been poorly prepared. In particular, those cases:
 
@@ -1163,7 +1162,7 @@ We are working actively on a way to discriminate contaminated air samples. In th
 6.  Samples analyzed
 
 7.  Data sheet completed.
-	
+
 
 
 1.  Starting a series of measurements
@@ -1222,19 +1221,19 @@ We are working actively on a way to discriminate contaminated air samples. In th
 
 NIOSH7400: Asbestos and other fibers by PCM 7400, 2019. NIOSH Manual of Analytical Methods, Fifth edition. *This revision replaces Method 7400, issue 2 (dated 08/15/1994)*
 
-OSHA id 160: Asbestos in Air [*link*]
+OSHA id 160: Asbestos in Air \[*link*]
 
 NOSHC-3003: GUIDANCE NOTE ON THE MEMBRANE FILTER METHOD FOR ESTIMATING AIRBORNE ASBESTOS FIBRES
 
-2ND Edition. 2005 [*link*]
+2ND Edition. 2005 \[*link*]
 
-IRSST 243-1: fiber count. Technical and scientific reports and notes, Analytical method 243-1. 1995. [*link*]
+IRSST 243-1: fiber count. Technical and scientific reports and notes, Analytical method 243-1. 1995. \[*link*]
 
-HSG248: Asbestos: The analysts’ guild for sampling, analysis and clearance procedures. 2005. ISBN 9780717628759. [*link*]
+HSG248: Asbestos: The analysts’ guild for sampling, analysis and clearance procedures. 2005. ISBN 9780717628759. \[*link*]
 
-NF X43-269: Qualité de l'air - Air des lieux de travail - Prélèvement sur filtre à membrane pour la détermination de la concentration en nombre de fibres par les techniques de microscopie : MOCP, MEBA et META - Comptage par MOCP. 2017. [*link*]
+NF X43-269: Qualité de l'air - Air des lieux de travail - Prélèvement sur filtre à membrane pour la détermination de la concentration en nombre de fibres par les techniques de microscopie : MOCP, MEBA et META - Comptage par MOCP. 2017. \[*link*]
 
-NBN T 96-102: Workplace atmospheres - Determination of asbestos fibre concentration - Membrane filter method with optical phase contrast microscopy. 1999. [*link*]
+NBN T 96-102: Workplace atmospheres - Determination of asbestos fibre concentration - Membrane filter method with optical phase contrast microscopy. 1999. \[*link*]
 
 Pang07: A new parameter to evaluate the quality of fiber count data of slides with relocatable fields. 2007. Journal of Occupational and Environmental Hygiene, 4: 129-144.
 
