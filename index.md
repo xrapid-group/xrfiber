@@ -1,7 +1,4 @@
-
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
 
 xRFiber Standard Operating Procedure
@@ -11,7 +8,6 @@ Document Revision: 1.1
 
 App Version: 1.60 Build: 597
 
-This page intentionally blank
 
 # 1. PURPOSE
 
@@ -40,109 +36,75 @@ xRapid Group has developed a fully automated microscope, patent pending, which c
 ### 2.2.1. General
 
 -   Phase contrast microscope, with phase condenser ring 40×.
-
 -   Objectives: 40× PCM (5 spots on the turret, 10× PCM optional)
 
 ### 2.2.2. Illumination
 
 -   Kohler illumination
-
 -   LED light source, 3W
 
 ### 2.2.3. Power
 
 -   12V-3A power source for 100-240V 0.8A mains, EU-UK-USA-AUS adapters (CE)
-
 -   USB-A plug charge only for iPhone/iPad Pro 10.5’’ (5V, 2A), USB-C plug charge for iPad Pro 11’’ (5V, 3A and 9V, 2A)
 
 ### 2.2.4. Eyepiece
 
 -   Two eyepieces, standard 30mm tube diameter.
-
 -   One third eye with a 10× (23mm diameter) eyepiece mounted on collapsible tube, factory centered, on which a cradle support for iPhone/iPad is attached.
 
 ### 2.2.5. Motorized stage
 
 -   X&Y displacement by steps of 125µm and 220µm, respectively
-
 -   Z displacement by steps of 0.5µm or 0.25µm in sequences
-
 -   X course: 75mm
-
 -   Y course: 30mm
-
 -   X&Y error: ±5µm over 18mm (forward and backward displacement of 40 steps)
-
 -   Speed: 15ms/step (X&Y), 9ms/step (Z)
-
 -   Control of coarse and fine displacement by software
-
 -   Stage piloted via Bluetooth or Ethernet through the control app
 
 ### 2.2.6. Control machine
 
 -   iPhone 7 or 8
-
 -   iPad Pro 10.5”, iPad Pro 11’’
-
 -   Additional devices possible, requires additional mounts
-
 -   Power adapter (Apple standard, fitted to region of purchase)
-
 -   Must be connected to the internet at least once a month for authorization
 
 ### 2.2.7. Control app
 
 -   Fully automated diagnostic with return to the original point of measure
-
 -   Average diagnostic time per slide lower than 3 minutes
-
 -   Reproducibility better than 2%
-
 -   Test log (journaling) and QC checks
-
 -   Exports results to PDF and Excel spreadsheets (single or grouped)
-
 -   Accuracy tested vs. IHPAT samples from rounds of last 4 years, all passed
-
 -   Confidence interval 95% Poisson distribution implemented
-
 -   Artificial intelligence based on convolutional neural networks trained by expert (machine learning), validated on 30’000 fields. This model is fixed in time, it requires a software update to evolve
-
 -   Standards supported: NIOSH 7400 (Type A & B), OSHA id 160, NOSHC-3003, IRSST 243-1, HSG248, NF X43-269.
 
 ### 2.2.8. Operation details
 
 -   Working capture resolution at 40× is ≈14 pixels per µm
-
 -   Scale and gratings/grids displayed by software, factory calibrated to standard traceable micrometer calibration slides (Ted Pella slides 2280-11, 2280-13, 2280-15)
-
 -   Virtual Walton-Beckett graticule displayed in app. Dimensions within 0.5% tolerance on 100µm WB graticule diameter
-
 -   Objective and optics train in conformity with the HSE/NPL Mark 2 calibration slide.
 
 ### 2.2.9. Accessories
 
 -   Telescope for ring position adjustment
-
 -   Leveling tool
-
 -   Dust protection bag and silicon dust cap, lens cleaning paper
-
 -   Set of Allen/Torx wrench
-
 -   Template for slide preparation
 
 ### 2.2.10. Controller (optional)
 
 -   Nimbus bluetooth controller
-
 -   Controller paired permanently to the iPhone/iPad
-
 -   Two joysticks (left/right) for coarse/fine displacement, respectively
-
 -   One D-Pad (left) for coarse focus adjustment
-
 -   4 buttons, right, for fine focus adjustment
 
 ## 2.3. Standards and paths
@@ -150,7 +112,6 @@ xRapid Group has developed a fully automated microscope, patent pending, which c
 xRfiber supports a large number of standards, which come with specificities, whether they are about the objects counted (for example, some standards specifically request *not* to count objects that are touching debris, while others have different strategies), or about the path that one must apply to scan the sample.
 
 The following standards are currently supported:
-
 -   NIOSH 7400 (Type A & B)
 -   OSHA id 160
 -   NOSHC-3003
@@ -164,33 +125,19 @@ Four sample geometries and therefore paths are supported: quarter disk oriented 
 # 3. SAFETY NOTES
 
 -   Always carry the microscope with two hands, wear protective clothing and shoes when moving equipment. It is advisable to place one hand under the base of the box for extra support.
-
 -   When opening the box, make sure that the top is facing upwards.
-
 -   If the microscope is stored in a box, always ensure the door is locked before picking up the box.
-
 -   Never disassemble the microscope on your own without xRapid-Group instructions and guidance as doing so may damage it and null the warranty.
-
 -   Turn off and unplug from the power supply before moving the microscope.
-
 -   Secure the turret of the microscope before and when moving the microscope.
-
 -   Never use coarse focus on your microscope — this known is locked. Only the fine focus is available. The coarse focus knob is blocked, and using it will damage the z-movement of the microscope.
-
 -   Make sure your workstation is set up ergonomically to use the microscope.
-
 -   Make sure the microscope is not stored in direct sunlight, nor stored in rooms where large temperature variations are expected. Normal temperature usage is within 15 to 25 degrees Celsius.
-
 -   Make sure the microscope is regularly electrically tested and tagged. Only use the provided electric cable and adapter. Choose a stable power source.
-
 -   Wear protective clothing, gloves and goggles preferably when preparing the slides, and operating the microscope.
-
 -   Never touch the lenses of the microscope with naked fingers: objectives, eyepieces and eyepiece on the trinocular.
-
 -   Only use special lens paper to clean the optics.
-
 -   Never touch an electric outlet with wet hands.
-
 -   Do not open the back of the microscope without being grounded, as this may result in electric shocks/hazards.
 
 # 4. PREREQUISITES
@@ -198,21 +145,13 @@ Four sample geometries and therefore paths are supported: quarter disk oriented 
 The following items are required for the operation of xRfiber platform.
 
 -   A cleared and clean laboratory space, if possible with constant lighting and in a low vibration environment
-
 -   A free power outlet
-
 -   At least one dedicated technician
-
 -   An internet connection, active during the installation and at least once a month on the first day of the month
-
 -   An Apple mobile device: iPhone 7, iPhone 8, iPad Pro 10.5” (2018) or iPad Pro 11” (2019) are all compatible with the hardware
-
 -   An iCloud account and AppleID (free iCloud account is good enough)
-
 -   Depending on the standard, calibration slides
-
 -   Depending on the standard of the laboratory, some QC slides
-
 -   Optionally a networked printer.
 
 # 5. RESPONSIBILITIES
@@ -220,27 +159,17 @@ The following items are required for the operation of xRfiber platform.
 It is the responsibility of the user to ensure that:
 
 -   The microscope unit is functioning properly, and report to support@xrapid-group.com in case there is any doubt that it does
-
 -   The power supply is connected to a stable source of 110V or 220V, depending on the local environment
-
 -   The microscope unit it set in a proper environment, that the optics are covered and dust protected when the unit is not in use (see section 6.1)
-
 -   The phase ring position is checked at least twice a day and/or before any other member of staff starts using the unit (see section 6.3)
-
 -   A field blank is used regularly to check that the count is adequate, i.e. below 5.5 or 7 fibers/mm2 depending on the standard
-
 -   An adequate number of slides are checked for quality control of the software (see section 6.5)
-
 -   The user name on the main screen of the software, when operating the unit, is correct, for traceability purposes (see section 6.4)
-
 -   The appropriate standard is selected (see section 6.4)
-
 -   A copy of the standard in use locally is located close to the equipment for reference.
 
 Additionally, the best results are obtained when:
-
 -   The slides are well prepared
-
 -   The initial focus is on the surface of the filter.
 
 # 6. PROCEDURE
@@ -746,14 +675,16 @@ Based on these results, baring the natural deviations due to the randomness of t
 
 ### 6.4.4. Confidence values
 
-The confidence values reported in the results are calculated using the equations given in NIOSH 7400, which describe the lower confidence limit (LCL) and higher confidence limit (HCL), as[^1]:
+The confidence values reported in the results are calculated using the equations given in NIOSH 7400, which describe the lower confidence limit ($LCL$) and higher confidence limit ($HCL$), as[^1]:
 
 
-$$ LCL(n) = \frac{2n+2.6^2-\sqrt{(2.6^2+2n)^2-4(1-2.6^2Sr^2)n^2}{2(1-2.6^2Sr^2)}} $$
+$$ LCL(n) = \frac{2n+2.6^2-\sqrt{\left(2.6^2+2n\right) ^2 - 4\left(1-2.6^2Sr^2 \right)n^2}}{2\left(1 - 2.6^2Sr^2 \right)} $$
 
-where n is the number of fibers detected, and Sr is a “subjective inter-laboratory relative standard deviation, which is close to the total inter-laboratory Sr when approximately 100 fibers are counted”.
+$$ HCL(n) = \frac{2n+1.8^2-\sqrt{\left(1.8^2+2n\right) ^2 - 4\left(1-1.8^2Sr^2 \right)n^2}}{2\left(1 - 1.8^2Sr^2 \right)} $$
 
-The latest revision of NIOSH 7400 states that “From these equations, the confidence limits accounting for both subjective microscopist and Poisson components for various fiber counts are calculated by taking Sr = 0.2. The intra- and inter- microscopist variability may be greater if quality control is poor”. Accordingly, xRfiber uses a value of Sr = 0.2, corresponding to a confidence interval of 0.95.
+where $n$ is the number of fibers detected, and $Sr$ is a “subjective inter-laboratory relative standard deviation, which is close to the total inter-laboratory $Sr$ when approximately 100 fibers are counted”.
+
+The latest revision of NIOSH 7400 states that “From these equations, the confidence limits accounting for both subjective microscopist and Poisson components for various fiber counts are calculated by taking $Sr = 0.2$. The intra- and inter- microscopist variability may be greater if quality control is poor”. Accordingly, xRfiber uses a value of $Sr = 0.2$, corresponding to a confidence interval of 0.95.
 
 ### 6.4.5. Results of Proficiency test rounds
 
