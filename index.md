@@ -203,7 +203,7 @@ The xRfiber microscope components are shown in Figure 6.1, additional components
 19. iPhone/iPad Cradle
 20. Ocular Locking Screws
 
-![Figure 6.1. xRfiber Microscope components ]()[Figure_6_1]()
+![][image-1]
 Figure 6.1. xRfiber Microscope components
 
 
@@ -1185,7 +1185,7 @@ NBN T 96-102: Workplace atmospheres - Determination of asbestos fibre concentrat
 
 Pang07: A new parameter to evaluate the quality of fiber count data of slides with relocatable fields. 2007. Journal of Occupational and Environmental Hygiene, 4: 129-144.
 
-[Figure_6_1]()([Figure\_6\_1.png][5])
+[Figure_6_1]()([Figure\_6\_1.png][3])
   []: media/image1.png{width="2.744792213473316in" height="1.0258311461067366in"}
   [1]: media/image2.tiff{width="2.759027777777778in" height="4.015384951881015in"}
   [2]: media/image4.tiff{width="4.5176071741032375in" height="6.464420384951881in"}
@@ -1221,4 +1221,6 @@ Pang07: A new parameter to evaluate the quality of fiber count data of slides wi
   [31]: media/image34.png{width="6.3in" height="1.4949201662292213in"}
 
 [1]:	mailto:%20support@xrapid-group.com
-[5]:	https://github.com/xrapid-group/xrfiber/blob/master/Pictures/Figure_6_1.png "Figure_6_1.png"
+[3]:	https://github.com/xrapid-group/xrfiber/blob/master/Pictures/Figure_6_1.png "Figure_6_1.png"
+
+[image-1]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_1.png
