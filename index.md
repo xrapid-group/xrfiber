@@ -24,9 +24,7 @@ If an information is requested, particularly if relevant and not found in the do
 # 2. CONTEXT
 
 -   These instructions are for the use of researchers, technicians and operators in general who are performing air samples fiber diagnostics.
-
 -   This SOP contains general guidelines for the analysis of samples only. Please refer to relevant standards for samples preparation.
-
 -   This SOP is not a substitute for the standards, the machine and software are used within the frame of standards and/or recommendations but do not replace them.
 
 ## 2.1. Main characteristics
@@ -38,109 +36,75 @@ xRapid Group has developed a fully automated microscope, patent pending, which c
 ### 2.2.1. General
 
 -   Phase contrast microscope, with phase condenser ring 40×.
-
 -   Objectives: 40× PCM (5 spots on the turret, 10× PCM optional)
 
 ### 2.2.2. Illumination
 
 -   Kohler illumination
-
 -   LED light source, 3W
 
 ### 2.2.3. Power
 
 -   12V-3A power source for 100-240V 0.8A mains, EU-UK-USA-AUS adapters (CE)
-
 -   USB-A plug charge only for iPhone/iPad Pro 10.5’’ (5V, 2A), USB-C plug charge for iPad Pro 11’’ (5V, 3A and 9V, 2A)
 
 ### 2.2.4. Eyepiece
 
 -   Two eyepieces, standard 30mm tube diameter.
-
 -   One third eye with a 10× (23mm diameter) eyepiece mounted on collapsible tube, factory centered, on which a cradle support for iPhone/iPad is attached.
 
 ### 2.2.5. Motorized stage
 
 -   X&Y displacement by steps of 125µm and 220µm, respectively
-
 -   Z displacement by steps of 0.5µm or 0.25µm in sequences
-
 -   X course: 75mm
-
 -   Y course: 30mm
-
 -   X&Y error: ±5µm over 18mm (forward and backward displacement of 40 steps)
-
 -   Speed: 15ms/step (X&Y), 9ms/step (Z)
-
 -   Control of coarse and fine displacement by software
-
 -   Stage piloted via Bluetooth or Ethernet through the control app
 
 ### 2.2.6. Control machine
 
 -   iPhone 7 or 8
-
--   iPad Pro 10.5”, iPad Pro 11’’
-
+-   iPad Pro 10.5”, iPad Pro 11”
 -   Additional devices possible, requires additional mounts
-
 -   Power adapter (Apple standard, fitted to region of purchase)
-
 -   Must be connected to the internet at least once a month for authorization
 
 ### 2.2.7. Control app
 
 -   Fully automated diagnostic with return to the original point of measure
-
 -   Average diagnostic time per slide lower than 3 minutes
-
 -   Reproducibility better than 2%
-
 -   Test log (journaling) and QC checks
-
 -   Exports results to PDF and Excel spreadsheets (single or grouped)
-
 -   Accuracy tested vs. IHPAT samples from rounds of last 4 years, all passed
-
 -   Confidence interval 95% Poisson distribution implemented
-
 -   Artificial intelligence based on convolutional neural networks trained by expert (machine learning), validated on 30’000 fields. This model is fixed in time, it requires a software update to evolve
-
 -   Standards supported: NIOSH 7400 (Type A & B), OSHA id 160, NOSHC-3003, IRSST 243-1, HSG248, NF X43-269.
 
 ### 2.2.8. Operation details
 
 -   Working capture resolution at 40× is ≈14 pixels per µm
-
 -   Scale and gratings/grids displayed by software, factory calibrated to standard traceable micrometer calibration slides (Ted Pella slides 2280-11, 2280-13, 2280-15)
-
 -   Virtual Walton-Beckett graticule displayed in app. Dimensions within 0.5% tolerance on 100µm WB graticule diameter
-
 -   Objective and optics train in conformity with the HSE/NPL Mark 2 calibration slide.
 
 ### 2.2.9. Accessories
 
 -   Telescope for ring position adjustment
-
 -   Leveling tool
-
 -   Dust protection bag and silicon dust cap, lens cleaning paper
-
 -   Set of Allen/Torx wrench
-
 -   Template for slide preparation
 
 ### 2.2.10. Controller (optional)
 
 -   Nimbus bluetooth controller
-
 -   Controller paired permanently to the iPhone/iPad
-
 -   Two joysticks (left/right) for coarse/fine displacement, respectively
-
 -   One D-Pad (left) for coarse focus adjustment
-
 -   4 buttons, right, for fine focus adjustment
 
 ## 2.3. Standards and paths
@@ -162,33 +126,19 @@ Four sample geometries and therefore paths are supported: quarter disk oriented 
 # 3. SAFETY NOTES
 
 -   Always carry the microscope with two hands, wear protective clothing and shoes when moving equipment. It is advisable to place one hand under the base of the box for extra support.
-
 -   When opening the box, make sure that the top is facing upwards.
-
 -   If the microscope is stored in a box, always ensure the door is locked before picking up the box.
-
 -   Never disassemble the microscope on your own without xRapid-Group instructions and guidance as doing so may damage it and null the warranty.
-
 -   Turn off and unplug from the power supply before moving the microscope.
-
 -   Secure the turret of the microscope before and when moving the microscope.
-
 -   Never use coarse focus on your microscope — this known is locked. Only the fine focus is available. The coarse focus knob is blocked, and using it will damage the z-movement of the microscope.
-
 -   Make sure your workstation is set up ergonomically to use the microscope.
-
 -   Make sure the microscope is not stored in direct sunlight, nor stored in rooms where large temperature variations are expected. Normal temperature usage is within 15 to 25 degrees Celsius.
-
 -   Make sure the microscope is regularly electrically tested and tagged. Only use the provided electric cable and adapter. Choose a stable power source.
-
 -   Wear protective clothing, gloves and goggles preferably when preparing the slides, and operating the microscope.
-
 -   Never touch the lenses of the microscope with naked fingers: objectives, eyepieces and eyepiece on the trinocular.
-
 -   Only use special lens paper to clean the optics.
-
 -   Never touch an electric outlet with wet hands.
-
 -   Do not open the back of the microscope without being grounded, as this may result in electric shocks/hazards.
 
 # 4. PREREQUISITES
@@ -196,49 +146,32 @@ Four sample geometries and therefore paths are supported: quarter disk oriented 
 The following items are required for the operation of xRfiber platform.
 
 -   A cleared and clean laboratory space, if possible with constant lighting and in a low vibration environment
-
 -   A free power outlet
-
 -   At least one dedicated technician
-
 -   An internet connection, active during the installation and at least once a month on the first day of the month
-
 -   An Apple mobile device: iPhone 7, iPhone 8, iPad Pro 10.5” (2018) or iPad Pro 11” (2019) are all compatible with the hardware
-
 -   An iCloud account and AppleID (free iCloud account is good enough)
-
 -   Depending on the standard, calibration slides
-
 -   Depending on the standard of the laboratory, some QC slides
-
 -   Optionally a networked printer.
 
 # 5. RESPONSIBILITIES
 
 It is the responsibility of the user to ensure that:
 
--   The microscope unit is functioning properly, and report to support@xrapid-group.com in case there is any doubt that it does
-
+-   The microscope unit is functioning properly, and report to [support@xrapid-group.com][1] in case there is any doubt that it does
 -   The power supply is connected to a stable source of 110V or 220V, depending on the local environment
-
 -   The microscope unit it set in a proper environment, that the optics are covered and dust protected when the unit is not in use (see section 6.1)
-
 -   The phase ring position is checked at least twice a day and/or before any other member of staff starts using the unit (see section 6.3)
-
 -   A field blank is used regularly to check that the count is adequate, i.e. below 5.5 or 7 fibers/mm2 depending on the standard
-
 -   An adequate number of slides are checked for quality control of the software (see section 6.5)
-
 -   The user name on the main screen of the software, when operating the unit, is correct, for traceability purposes (see section 6.4)
-
 -   The appropriate standard is selected (see section 6.4)
-
 -   A copy of the standard in use locally is located close to the equipment for reference.
 
 Additionally, the best results are obtained when:
 
--   The slides are well prepared
-
+-   The slides are well prepared: see separate SOP.
 -   The initial focus is on the surface of the filter.
 
 # 6. PROCEDURE
@@ -249,16 +182,26 @@ Additionally, the best results are obtained when:
 
 The xRfiber microscope components are shown in Figure 6.1, additional components in the box are shown in Figure 6.2.
 
-  1 Power Switch                                 11 Stage Clip
-  2 Power Adapter Port                           12 X-Axis End Stops with Cover
-  3 USB Charging Port                            13 40x Plan PH2 Objective
-  4 Fine Focus Adjustment Knob                   14 Objective Turret
-  5 LED Light Source with Field Iris Diaphragm   15 Oculars
-  6 Condenser                                    16 Condenser Alignment Screws
-  7 Condenser Adjustment Knob                    17 Cradle Support Arm
-  8 Phase Ring Holder                            18 Adjustable C-Mount Adapter
-  9 Condenser Iris Diaphragm                     19 iPhone/iPad Cradle
-  10 Microscope Stage                            20 Ocular Locking Screws
+1. Power Switch
+2. Power Adapter Port
+3. USB Charging Port
+4. Fine Focus Adjustment Knob
+5. LED Light Source with Field Iris Diaphragm
+6. Condenser
+7. Condenser Adjustment Knob
+8. Phase Ring Holder
+9. Condenser Iris Diaphragm
+10. Microscope Stage
+11. Stage Clip
+12. X-Axis End Stops with Cover
+13. 40x Plan PH2 Objective
+14. Objective Turret
+15. Oculars
+16. Condenser Alignment Screws
+17. Cradle Support Arm
+18. Adjustable C-Mount Adapter
+19. iPhone/iPad Cradle
+20. Ocular Locking Screws
 
 
 Figure 6.1. xRfiber Microscope components
@@ -267,14 +210,20 @@ Figure 6.1. xRfiber Microscope components
 Figure 6.2. Additional components in the box
 
 ---- 
-  21 Protection Bag         29 Eyepiece Screws
-  22 Lens Cleaning Tissue   30 Eyepiece WF10X
-  23 Slide Preparation      31 Allen Wrench (Alignment)
-  24 Level                  32 Allen Wrench H2.5
-  25 Plug Adapter           33 Allen Wrench H1.5
-  26 Power Supply           34 Torx T10
-  27 Telescopic Eyepiece  
-  28 Eyepiece Cap  
+21. Protection Bag
+22. Lens Cleaning Tissue
+23. Slide Preparation
+24. Level
+25. Plug Adapter
+26. Power Supply
+27. Telescopic Eyepiece
+28. Eyepiece Cap
+29. Eyepiece Screws
+30. Eyepiece WF10X
+31. Allen Wrench (Alignment)
+32. Allen Wrench H2.5
+33. Allen Wrench H1.5
+34. Torx T10  
 
 
 ### 6.1.2. Installation
@@ -1272,3 +1221,5 @@ Pang07: A new parameter to evaluate the quality of fiber count data of slides wi
   [31]: media/image34.png{width="6.3in" height="1.4949201662292213in"}
 
 [^1]:	.
+
+[1]:	mailto:%20support@xrapid-group.com
