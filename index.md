@@ -203,7 +203,7 @@ The xRfiber microscope components are shown in Figure 6.1, additional components
 19. iPhone/iPad Cradle
 20. Ocular Locking Screws
 
-
+file:///.file/id=6571367.69825122
 Figure 6.1. xRfiber Microscope components
 
 
@@ -236,7 +236,7 @@ Upon opening your xRfiber unit, please use the checklist provided to confirm all
 
 Figure 6.3. box contents
 
-1.  GETTING THE MICROSCOPE OUT OF THE BOX
+2.  GETTING THE MICROSCOPE OUT OF THE BOX
 
 When deciding where to place the xRfiber Platform, consider the following:
 
@@ -266,17 +266,17 @@ Remove both Ocular Covers (n°35). Eventually use a air duster (not included) in
 
 Figure 6.5. Installation of the eyepieces
 
-1.  INSTALLING THE OCULAR (N°15)
+3.  INSTALLING THE OCULAR (N°15)
 
 If the ocular is not clean, use an air duster (not included), and/or the Lens Cleaning Paper (n°22) to clean it before insertion (no circular motion — always have a linear motion so that the dirt stays on the edges of the lens and does not spread over the lens).
 
 If you cannot insert it, loosen the ocular locking screw(s) (n°20) with the Allen Wrench H1.5 (n°33) and try again.
 
-2.  SECURING THE OCULAR (N°15)
+4.  SECURING THE OCULAR (N°15)
 
 Slowly tighten the screw with the Allen Wrench H1.5 (n°33) to secure the eyepiece.
 
-3.  INSERTING THE TELESCOPIC EYEPIECE (N°28) FOR PHASE RING ALIGNMENT
+5.  INSERTING THE TELESCOPIC EYEPIECE (N°28) FOR PHASE RING ALIGNMENT
 
 If you cannot insert it, loosen the eyepiece locking screw (n°20) with the Allen Wrench H1.5 (n°33) and try again.
 
@@ -284,7 +284,7 @@ Insert the Telescopic Eyepiece (n°27).
 
 Slowly tighten the screw with the Allen Wrench H1.5 (n°33) to secure the Telescopic Eyepiece (n°27).
 
-4.  INSTALLING THE OBJECTIVE (N°13)
+6.  INSTALLING THE OBJECTIVE (N°13)
 
 Rotate the turret so the available opening is askew from the optic train.
 
@@ -296,7 +296,7 @@ Turn the turret to align the objective (n°13) with optic train.
 
 **WARNING**: Take care that the stage (n°10) is low enough in order to avoid collision with the 40X objective (n°13). If it is not the case, get the stage down using the Fine Focus Adjustment Knob (n°4).
 
-5.  INITIAL CALIBRATION
+7.  INITIAL CALIBRATION
 
 #### Centering the condenser
 
@@ -693,10 +693,9 @@ Based on these results, baring the natural deviations due to the randomness of t
 
 ### 6.4.4. Confidence values
 
-The confidence values reported in the results are calculated using the equations given in NIOSH 7400, which describe the lower confidence limit (LCL) and higher confidence limit (HCL), as[^1]:
+The confidence values reported in the results are calculated using the equations given in NIOSH 7400, which describe the lower confidence limit (LCL) and higher confidence limit (HCL), as:
 
-
-$$ LCL(n) = \frac{2n+2.6^2-\sqrt{(2.6^2+2n)^2-4(1-2.6^2Sr^2)n^2}{2(1-2.6^2Sr^2)}} $$
+$$ LCL(n) = \frac{2n + 2.6^2-\sqrt{\left(2.6^2+2n \right)^2-4 \left(1-2.6^2 Sr^2 \right) n^2}}{2 \left(1-2.6^2 Sr^2 \right)} $$
 
 where n is the number of fibers detected, and Sr is a “subjective inter-laboratory relative standard deviation, which is close to the total inter-laboratory Sr when approximately 100 fibers are counted”.
 
@@ -1219,7 +1218,5 @@ Pang07: A new parameter to evaluate the quality of fiber count data of slides wi
   [A screenshot of a cell phone Description automatically generated]: media/image32.png{width="6.3in" height="1.4949146981627297in"}
   [30]: media/image33.png{width="6.3in" height="1.4949146981627297in"}
   [31]: media/image34.png{width="6.3in" height="1.4949201662292213in"}
-
-[^1]:	.
 
 [1]:	mailto:%20support@xrapid-group.com
