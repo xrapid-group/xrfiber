@@ -1221,4 +1221,4 @@ Pang07: A new parameter to evaluate the quality of fiber count data of slides wi
 
 [1]:	mailto:%20support@xrapid-group.com
 
-[image-1]:	https://github.com/xrapid-group/xrfiber/blob/master/Pictures/Figure_6_1.png
+[image-1]:	/Pictures/Figure_6_1.png
