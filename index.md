@@ -11,8 +11,6 @@ Document Revision: 1.1
 
 App Version: 1.60 Build: 597
 
-This page intentionally blank
-
 # 1. PURPOSE
 
 This document describes the standard operating procedure of the xRfiber platform.
@@ -21,7 +19,7 @@ xRfiber comprises a motorized microscope that is wirelessly operated by an iPhon
 
 Although a training is provided when a unit is deployed in a laboratory, this document should also be read, understood and referred to when questions arise.
 
-If an information is requested, particularly if relevant and not found in the document, the user is welcome to contact \[support@xrapid-group.com] for any further question.
+If an information is requested, particularly if relevant and not found in the document, the user is welcome to contact [support@xrapid-group.com] for any further question.
 
 # 2. CONTEXT
 
@@ -275,7 +273,9 @@ Figure 6.2. Additional components in the box
   24 Level                  32 Allen Wrench H2.5
   25 Plug Adapter           33 Allen Wrench H1.5
   26 Power Supply           34 Torx T10
-  27 Telescopic Eyepiece   28 Eyepiece Cap 
+  27 Telescopic Eyepiece  
+  28 Eyepiece Cap  
+
 
 ### 6.1.2. Installation
 
@@ -283,7 +283,7 @@ Figure 6.2. Additional components in the box
 
 Upon opening your xRfiber unit, please use the checklist provided to confirm all items have been received: the checklist is on the top of the box when opening it. If something is missing, please contact support@xrapid-group.com.
 
-!\[]\[4]
+![][4]
 
 Figure 6.3. box contents
 
@@ -305,7 +305,7 @@ When deciding where to place the xRfiber Platform, consider the following:
 
 Verify that the head of the microscope (A) is aligned with the body (B). If not, slide head into alignment with the body by hand: apply a slight rotation of the head to align its edges with those of the body.
 
-!\[]\[5]!\[]\[6]
+![][5]![][6]
 
 Figure 6.4. Alignment of the microscope head
 
@@ -313,7 +313,7 @@ Verify that the adjustable C-Mount Adapter (n°18) is aligned with the head of t
 
 Remove both Ocular Covers (n°35). Eventually use a air duster (not included) in the ocular openings to ensure that they are free of debris and dust.
 
-!\[]\[7]!\[]\[8]
+![][7]![][8]
 
 Figure 6.5. Installation of the eyepieces
 
@@ -385,7 +385,7 @@ Phase rings are aligned following this process:
 
 -   Once finished, return the telescopic ocular to its initial position and replace it with the standard Ocular (n°15).
 
-!\[]\[9]!\[]\[10]!\[]\[11]
+![][9]![][10]![][11]
 
 Figure 6.6. Illustration of the alignment of the rings (left and middle: misaligned, right: aligned)
 
@@ -407,7 +407,7 @@ Remove the C-Mount Adapter Cap and align the Cradle with the tube of the adapter
 
 Attach the Cradle to the microscope using the two screws (n°36) you removed.
 
-!\[]\[12]!\[]\[13]!\[]\[14]!\[]\[15]
+![][12]![][13]![][14]![][15]
 
 Figure 6.7. Installation of the iPhone cradle
 
@@ -443,7 +443,7 @@ Figure 6.7. Installation of the iPhone cradle
 
 The ideal situation is shown below: the device both on stage and in cradle should show the same orientation, leveled at zero degrees in all directions.
 
-!\[]\[16]
+![][16]
 
 Figure 6.8. unbalanced (left) and perfectly flat orientations of the iPhone in its cradle and on stage
 
@@ -485,7 +485,7 @@ Once a device is connected, the button (1) being circled, tapping the Bluetooth 
 
 **NOTE**: the Bluetooth functionality lets us discover the device based on the strength of the signal. If two devices are more than one meter apart, the iPhone/iPad will find the correct microscope, i.e. the microscope it is sitting on. If devices are closer, some mixing or confusion of signals may occur, and the device will have to be checked and connected manually using the pop up menu.
 
-!\[]\[17]
+![][17]
 
 Figure 6.9. Main screen in the disconnected state (left) and Bluetooth connected state (right)
 
@@ -521,7 +521,7 @@ The light button (10) is used to switch on/off the microscope light source. When
 
 The settings/options have 3 main categories, reached by tapping on the segmented control: User (1), Diagnostic (2), Print (3).
 
-!\[]\[18]
+![][18]
 
 Figure 6.10. Settings screens with the User (left), Diagnostic (middle) and Print (right) settings.
 
@@ -575,7 +575,7 @@ Three entries are possible to customize the tests:
 
 -   The capture scale, in pixels per micrometer: this value is calibrated using a traceable micrometer slide before shipping to the customer, and checked during first deployment and any servicing of the machine. Normal value is 14.1 with a maximum error of 0.5%. It is recommended that this value is checked once a month.
 
--   Number of Walton-Beckett graticules: the newest iPad Pro 11’’ are capable of large computations, and as such it does make sense to measure more than one field per image captured. The image resolution is not changing between the two modes, and we can benefit from adding a second graticule, i.e. using the image captured for two fields instead of one. When doing so, we perform half the movements and therefore gain all these displacement times. In the case where two graticules are used, one should check that the scale is the same for both, or refrain from using two if this is the case. Should both graticules not have the same scale, the user should contact \[support@xrapid-group.com] for immediate intervention/remediation.
+-   Number of Walton-Beckett graticules: the newest iPad Pro 11’’ are capable of large computations, and as such it does make sense to measure more than one field per image captured. The image resolution is not changing between the two modes, and we can benefit from adding a second graticule, i.e. using the image captured for two fields instead of one. When doing so, we perform half the movements and therefore gain all these displacement times. In the case where two graticules are used, one should check that the scale is the same for both, or refrain from using two if this is the case. Should both graticules not have the same scale, the user should contact [support@xrapid-group.com] for immediate intervention/remediation.
 
 Notice that those last three settings are entirely optional.
 
@@ -597,9 +597,9 @@ When entering the Measurement screen, the microscope light source will turn on a
 
 A default identifier (1) is automatically generated. It is grayed-out, and can be changed. Tapping this identifier will show the iOS keyboard (2), tapping the small X icon at the right of the field will dismiss all changes and the keyboard. Any identifier longer than one character can be entered. The case presented in Figure 6.11. enables the use of sequences: any string followed by a dash - and a number will be automatically followed by the the same string with the number incremented by one when the next test is launched. This is particularly useful when a file contains several samples with a resulting large number of slides.
 
-!\[]\[19]Figure 6.11. Starting a diagnostic with changing the default test identification
+![][19]Figure 6.11. Starting a diagnostic with changing the default test identification
 
-!\[]\[20] The usual sequence is shown Figure 6.12: tap the Start Diagnostic hexagonal button (1), after which the diagnostic sequence executes automatically. One can adjust the position of the slide by tapping the Controls icon (2), which will bring up the in-plane control (3) and focus control (4). One can return to the start button by hitting the cross (5).
+![][20] The usual sequence is shown Figure 6.12: tap the Start Diagnostic hexagonal button (1), after which the diagnostic sequence executes automatically. One can adjust the position of the slide by tapping the Controls icon (2), which will bring up the in-plane control (3) and focus control (4). One can return to the start button by hitting the cross (5).
 
 Figure 6.12. Illustration of entering a Diagnostic screen (right), start position being set up (middle), and diagnostic running (right)
 
@@ -609,11 +609,11 @@ Notice that the next time the analysis is launched, the test identification will
 
 ### 6.3.4. Results screen
 
-!\[]\[21]The results screen has a large number of potential actions, beyond displaying the results of a test (last or past). The unified results screen is the same whether one accesses it following the completion of a diagnostic or going back to it from a Test Log.
+![][21]The results screen has a large number of potential actions, beyond displaying the results of a test (last or past). The unified results screen is the same whether one accesses it following the completion of a diagnostic or going back to it from a Test Log.
 
 Figure 6.13. Results screen
 
-!\[]\[22]From this screen, one can access a record of the images captured by tapping button (1), or the export options with button (2). The date and time of the test are displayed in (4) and the test identification in (3). Notice that at this point, it is impossible to change the test identification. When the results screen is accessed, it always opens on the raw numbers resulting from the measurement: the total number of fibers and fields, for instance. As such, the segmented control (5) will always be selected by default. To change this display, one can tap the segmented control in (6) for example, to obtain the values in fibers per mm2. The Fields Counts (7) present the position and numbers of each and every field measured. The large button (8) leads back to the Tests Log screen or the Main screen depending where the unified result was displayed from.
+![][22]From this screen, one can access a record of the images captured by tapping button (1), or the export options with button (2). The date and time of the test are displayed in (4) and the test identification in (3). Notice that at this point, it is impossible to change the test identification. When the results screen is accessed, it always opens on the raw numbers resulting from the measurement: the total number of fibers and fields, for instance. As such, the segmented control (5) will always be selected by default. To change this display, one can tap the segmented control in (6) for example, to obtain the values in fibers per mm2. The Fields Counts (7) present the position and numbers of each and every field measured. The large button (8) leads back to the Tests Log screen or the Main screen depending where the unified result was displayed from.
 
 Figure 6.14. Results screen (2)
 
@@ -631,9 +631,9 @@ When the volume has been entered, the fiber density will be displayed.
 
 Notice that in all displays of the results, the quantity of fibers as well as the minimum and maximum bounds defined by the associated standard are displayed.
 
-!\[]\[23]Figure 6.15. Statistics reports
+![][23]Figure 6.15. Statistics reports
 
-!\[]\[24]As noted above, the fields counts are accessed from the Results screen. They indicate the number of debris and fibers measured in all the fields, together with their location. The plots on top can be swiped to display plots of the fiber distribution, the debris distribution. The fibers length vs. width is interesting as it gives an idea of the type of fibers one has measured. Both fiber and debris distributions are used to evaluate whether they follow a Poisson distribution (within 95% confidence), which is a measure of the randomness of the sample (and the base hypothesis of all standards).
+![][24]As noted above, the fields counts are accessed from the Results screen. They indicate the number of debris and fibers measured in all the fields, together with their location. The plots on top can be swiped to display plots of the fiber distribution, the debris distribution. The fibers length vs. width is interesting as it gives an idea of the type of fibers one has measured. Both fiber and debris distributions are used to evaluate whether they follow a Poisson distribution (within 95% confidence), which is a measure of the randomness of the sample (and the base hypothesis of all standards).
 
 Figure 6.16. Reviewing and exporting images
 
@@ -641,13 +641,13 @@ Depending upon options and version, the images of every field captured may be av
 
 Exporting results is performed through the Action button. It opens a set of options, to share as an image (in PNG format), as a printable sheet (in PDF format), to print directly using the iOS print server, or to save as comma-separated-value (two options). The latter is used to export to Excel or Numbers or other spreadsheet software. xRfiber normally manages the export format according to locale settings (i.e. a distinction is made between decimal separator and column separator depending upon the localization of the device). Should your export results come out poorly, do not hesitate to contact support@xrapid-group.com.
 
-!\[]\[25]
+![][25]
 
 Figure 6.17. Results export options
 
 There are two options to export as CSV: one can either export the full result, or export the raw fiber counts data. In the latter case, a table of groups of 5 rows with 5 columns will be exported. All those raw counts are usually easy to copy and paste into LIMS systems.
 
-The iOS system is complete, and as such it is possible to export to other networked devices. In cases of mixed ecosystems, eg. PCs which are frequently used in laboratory settings, one can export from the iPad or iPhone (running iOS 13) to a thumb drive and use this device to transfer data. Feel free to contact \[support@xrapid-group.com] should you need a recommendation for adapters and/or thumb drives.
+The iOS system is complete, and as such it is possible to export to other networked devices. In cases of mixed ecosystems, eg. PCs which are frequently used in laboratory settings, one can export from the iPad or iPhone (running iOS 13) to a thumb drive and use this device to transfer data. Feel free to contact [support@xrapid-group.com] should you need a recommendation for adapters and/or thumb drives.
 
 6.4. Calibration
 ---- 
@@ -690,7 +690,7 @@ Each xRfiber microscope is tested with a band 5 slide (option 2, green document)
 
 #### Results
 
-!\[]\[26]
+![][26]
 
 Figure 6.19. HSE-NPL slide bands as measured by the xRfiber unit
 
@@ -706,13 +706,13 @@ The scale and gratings/grids displayed are displayed by software, and factory ca
 
 The calibration factor for the images captures is 1415 pixels for 100µm. The maximum error permitted is ±5 pixels, that is approximately 0.35µm. The scale is checked for all microscopes on the app by simply imaging a square grid with a 50µm pitch and checking that the Walton Beckett graticule matches the spacing. In the image below the WB graticule is reasonably within 3 pixels of the grating limits.
 
-!\[]\[27]
+![][27]
 
 Figure 6.20. Application view of the 50µm square pitch graticule
 
 The image captured using the same process as the diagnostic is checked for scale: the image is 1800 pixels in both width and height, and the dimensions determined are marked on the image below.
 
-!\[]\[28]
+![][28]
 
 Figure 6.21. image captured of a 50µm square pitch graticule
 
@@ -736,7 +736,7 @@ xRfiber has been evaluated versus proficiency test slides. The conditions were s
 
 Samples from proficiency test rounds over the last two years were used, the results are shown below.
 
-!\[]\[29]
+![][29]
 
 Figure 6.22: plot of the results of the three repetitions with various random start positions versus the reference count of proficiency samples. The empty boxes represent the lower and upper acceptable bounds, while the bullets are the measurement results, color coded per run. The Reference Value and acceptable bounds are determined from a number of laboratories not taking part in the proficiency round, which have been known to provide a reliable analysis. From the results of those laboratories, an average value is calculated (the Reference Value), together with a standard deviation. The acceptable range is within three standard deviations.
 
@@ -744,7 +744,7 @@ Based on these results, baring the natural deviations due to the randomness of t
 
 ### 6.4.4. Confidence values
 
-The confidence values reported in the results are calculated using the equations given in NIOSH 7400, which describe the lower confidence limit (LCL) and higher confidence limit (HCL), as(fn):
+The confidence values reported in the results are calculated using the equations given in NIOSH 7400, which describe the lower confidence limit (LCL) and higher confidence limit (HCL), as[^1]:
 
 
 $$ LCL(n) = \frac{2n+2.6^2-\sqrt{(2.6^2+2n)^2-4(1-2.6^2Sr^2)n^2}{2(1-2.6^2Sr^2)}} $$
@@ -755,19 +755,19 @@ The latest revision of NIOSH 7400 states that “From these equations, the confi
 
 ### 6.4.5. Results of Proficiency test rounds
 
-The results obtained at some customer sites using xRfiber are reported in the three following tables. Should your results differ greatly from those, please contact \[support@xrapid-group.com] .
+The results obtained at some customer sites using xRfiber are reported in the three following tables. Should your results differ greatly from those, please contact [support@xrapid-group.com] .
 
 Table 6.1: Results of IHPAT round 217
 
-!\[A screenshot of a cell phone Description automatically generated]
+![A screenshot of a cell phone Description automatically generated]
 
 Table 6.2: Results of IHPAT round 218
 
-!\[A screenshot of a cell phone Description automatically generated]\[30]
+![A screenshot of a cell phone Description automatically generated][30]
 
 Table 6.3: Results of IHPAT round 219
 
-!\[A screenshot of a cell phone Description automatically generated]\[31]
+![A screenshot of a cell phone Description automatically generated][31]
 
 6.5. Standard care and cleaning of the unit
 ---- 
@@ -791,15 +791,15 @@ Additionally, the microscope must be covered by its plastic pouch when not in us
 Process for cleaning the xRfiber platform
 
 1.  Remove the cradle
-	
+
 	1.  Begin by the socket head screws that they maintain the cradle support in the microscope head.
-	
+
 	2.  Remove the cradle with the eyepiece.
-	
+
 	3.  Loosen the three screws which maintain the eyepiece on the cradle cylinder and remove the eyepiece.
-	
+
 	4.  Clean the eyepiece using a dust air spray, clean it on its top and on its bottom.
-	
+
 	5.  If some impurities remain on the lens, use a lens cleaning paper (always with linear motion), and use the compressed air spray when finished.
 
 2.  Remove the trinocular tube by loosening manually the two screws maintaining it
@@ -807,9 +807,9 @@ Process for cleaning the xRfiber platform
 3.  Use the compressed air spray to clean the glass on the top of the head.
 
 4.  Remove the head of the microscope using a 2.5mm Allen wrench.
-	
+
 	1.  Remove the Olympus objective from the turret.
-	
+
 	2.  Turn the turret to place the opened orifice in line with the optic train. From the top of the microscope, use the compressed air spray to clean the microscope and the turret.
 
 5.  Reassemble the head of the microscope.
@@ -961,7 +961,7 @@ For any other issue, please contact the xRapid support team at support@xrapid-gr
 
 -   Check that the slide is really blank: frequent cases of contamination on unsealed slides have been observed
 
--   Contact \[support@xrapid-group.com] in case of doubt.
+-   Contact [support@xrapid-group.com] in case of doubt.
 
 ## 6.8. Limitations
 
@@ -974,11 +974,11 @@ The app is known to have some limitations when samples are damaged or have been 
 -   overloaded filters
 
 -   inconsistent filters
-	
+
 	-   damaged/broken filters
-	
+
 	<!-- -->
-	
+
 	-   unleveled filters
 
 -   slides with too many bubbles entrapped
@@ -1116,17 +1116,17 @@ We are working actively on a way to discriminate contaminated air samples. In th
 # 7.1.  Proficiency testing
 
 1.  Installation and training complete
-	
+
 	a.  Unit installed
-	
+
 	b.  Training received
-	
+
 	c.  Environment evaluated
-	
+
 	i.  Vibration free platform
-	
+
 	ii. Consistent, indirect lighting
-	
+
 	iii. Power supplies connected
 
 2.  Verification of proper size of magnified Walton Beckett graticule image (100μm diameter) by direct comparison on the screen
@@ -1136,27 +1136,27 @@ We are working actively on a way to discriminate contaminated air samples. In th
 4.  Verification of HSE/NPL Test slide compliance - lines in series 5 visible, some of the lines in series 6 are visible but not all
 
 5.  Preparation of testing samples (45) completed: fresh samples processed from archived filters of proficiency inter-comparison exercises
-	
+
 	a.  Using xRfiber Template for preparation (optional)
-	
+
 	b.  Proficiency program samples from within the last five years
-	
+
 	i.  Eight proficiency chrysotile samples
-	
+
 	ii. Seven proficiency amosite (amphibole) samples
-	
+
 	iii. Five proficiency man-made fiber samples
-	
+
 	iv. Two proficiency “Blank” samples
-	
+
 	v.  Three production “Overload” samples
-	
+
 	c.  Live samples
-	
+
 	i.  Six samples with low fibers count
-	
+
 	ii. Seven samples with medium fibers count
-	
+
 	iii. Seven samples with high fibers count
 
 6.  Samples analyzed
@@ -1221,52 +1221,54 @@ We are working actively on a way to discriminate contaminated air samples. In th
 
 NIOSH7400: Asbestos and other fibers by PCM 7400, 2019. NIOSH Manual of Analytical Methods, Fifth edition. *This revision replaces Method 7400, issue 2 (dated 08/15/1994)*
 
-OSHA id 160: Asbestos in Air \[*link*]
+OSHA id 160: Asbestos in Air [*link*]
 
 NOSHC-3003: GUIDANCE NOTE ON THE MEMBRANE FILTER METHOD FOR ESTIMATING AIRBORNE ASBESTOS FIBRES
 
-2ND Edition. 2005 \[*link*]
+2ND Edition. 2005 [*link*]
 
-IRSST 243-1: fiber count. Technical and scientific reports and notes, Analytical method 243-1. 1995. \[*link*]
+IRSST 243-1: fiber count. Technical and scientific reports and notes, Analytical method 243-1. 1995. [*link*]
 
-HSG248: Asbestos: The analysts’ guild for sampling, analysis and clearance procedures. 2005. ISBN 9780717628759. \[*link*]
+HSG248: Asbestos: The analysts’ guild for sampling, analysis and clearance procedures. 2005. ISBN 9780717628759. [*link*]
 
-NF X43-269: Qualité de l'air - Air des lieux de travail - Prélèvement sur filtre à membrane pour la détermination de la concentration en nombre de fibres par les techniques de microscopie : MOCP, MEBA et META - Comptage par MOCP. 2017. \[*link*]
+NF X43-269: Qualité de l'air - Air des lieux de travail - Prélèvement sur filtre à membrane pour la détermination de la concentration en nombre de fibres par les techniques de microscopie : MOCP, MEBA et META - Comptage par MOCP. 2017. [*link*]
 
-NBN T 96-102: Workplace atmospheres - Determination of asbestos fibre concentration - Membrane filter method with optical phase contrast microscopy. 1999. \[*link*]
+NBN T 96-102: Workplace atmospheres - Determination of asbestos fibre concentration - Membrane filter method with optical phase contrast microscopy. 1999. [*link*]
 
 Pang07: A new parameter to evaluate the quality of fiber count data of slides with relocatable fields. 2007. Journal of Occupational and Environmental Hygiene, 4: 129-144.
 
-  \[]: media/image1.png{width="2.744792213473316in" height="1.0258311461067366in"}
-  \[1]: media/image2.tiff{width="2.759027777777778in" height="4.015384951881015in"}
-  \[2]: media/image4.tiff{width="4.5176071741032375in" height="6.464420384951881in"}
-  \[3]: media/image5.tiff{width="4.5176071741032375in" height="2.99375656167979in"}
-  \[4]: media/image6.tiff{width="2.361111111111111in" height="2.375in"}
-  \[5]: media/image7.tiff{width="1.3888888888888888in" height="1.8611111111111112in"}
-  \[6]: media/image8.tiff{width="3.0694444444444446in" height="1.8472222222222223in"}
-  \[7]: media/image9.tiff{width="2.2222222222222223in" height="1.6527777777777777in"}
-  \[8]: media/image10.tiff{width="2.2222222222222223in" height="1.6527777777777777in"}
-  \[9]: media/image11.tiff{width="1.4444444444444444in" height="1.4861111111111112in"}
-  \[10]: media/image12.tiff{width="1.4444444444444444in" height="1.4861111111111112in"}
-  \[11]: media/image13.tiff{width="1.4444444444444444in" height="1.4861111111111112in"}
-  \[12]: media/image14.tiff{width="1.5in" height="1.5in"}
-  \[13]: media/image15.tiff{width="1.5in" height="1.5in"}
-  \[14]: media/image16.tiff{width="1.5in" height="1.5in"}
-  \[15]: media/image17.tiff{width="1.5in" height="1.5in"}
-  \[16]: media/image18.png{width="4.5176071741032375in" height="3.766554024496938in"}
-  \[17]: media/image19.png{width="6.295833333333333in" height="3.5256944444444445in"}
-  \[18]: media/image20.png{width="6.295833333333333in" height="3.5256944444444445in"}
-  \[19]: media/image21.png{width="6.295833333333333in" height="3.588888888888889in"}
-  \[20]: media/image22.png{width="6.295833333333333in" height="3.2736111111111112in"}
-  \[21]: media/image23.png{width="6.295833333333333in" height="3.5256944444444445in"}
-  \[22]: media/image24.png{width="6.295833333333333in" height="2.7284722222222224in"}
-  \[23]: media/image25.png{width="6.295833333333333in" height="3.9520833333333334in"}
-  \[24]: media/image26.png{width="6.295833333333333in" height="2.7284722222222224in"}
-  \[25]: media/image27.png{width="2.7224267279090113in" height="3.62990157480315in"}
-  \[26]: media/image28.emf{width="4.5176071741032375in" height="4.687529527559055in"}
-  \[27]: media/image29.png{width="2.642836832895888in" height="3.7835181539807525in"}
-  \[28]: media/image30.emf{width="4.5176071741032375in" height="4.5176071741032375in"}
-  \[29]: media/image31.emf{width="4.5176071741032375in" height="2.661826334208224in"}
-  \[A screenshot of a cell phone Description automatically generated]: media/image32.png{width="6.3in" height="1.4949146981627297in"}
-  \[30]: media/image33.png{width="6.3in" height="1.4949146981627297in"}
-  \[31]: media/image34.png{width="6.3in" height="1.4949201662292213in"}
+  []: media/image1.png{width="2.744792213473316in" height="1.0258311461067366in"}
+  [1]: media/image2.tiff{width="2.759027777777778in" height="4.015384951881015in"}
+  [2]: media/image4.tiff{width="4.5176071741032375in" height="6.464420384951881in"}
+  [3]: media/image5.tiff{width="4.5176071741032375in" height="2.99375656167979in"}
+  [4]: media/image6.tiff{width="2.361111111111111in" height="2.375in"}
+  [5]: media/image7.tiff{width="1.3888888888888888in" height="1.8611111111111112in"}
+  [6]: media/image8.tiff{width="3.0694444444444446in" height="1.8472222222222223in"}
+  [7]: media/image9.tiff{width="2.2222222222222223in" height="1.6527777777777777in"}
+  [8]: media/image10.tiff{width="2.2222222222222223in" height="1.6527777777777777in"}
+  [9]: media/image11.tiff{width="1.4444444444444444in" height="1.4861111111111112in"}
+  [10]: media/image12.tiff{width="1.4444444444444444in" height="1.4861111111111112in"}
+  [11]: media/image13.tiff{width="1.4444444444444444in" height="1.4861111111111112in"}
+  [12]: media/image14.tiff{width="1.5in" height="1.5in"}
+  [13]: media/image15.tiff{width="1.5in" height="1.5in"}
+  [14]: media/image16.tiff{width="1.5in" height="1.5in"}
+  [15]: media/image17.tiff{width="1.5in" height="1.5in"}
+  [16]: media/image18.png{width="4.5176071741032375in" height="3.766554024496938in"}
+  [17]: media/image19.png{width="6.295833333333333in" height="3.5256944444444445in"}
+  [18]: media/image20.png{width="6.295833333333333in" height="3.5256944444444445in"}
+  [19]: media/image21.png{width="6.295833333333333in" height="3.588888888888889in"}
+  [20]: media/image22.png{width="6.295833333333333in" height="3.2736111111111112in"}
+  [21]: media/image23.png{width="6.295833333333333in" height="3.5256944444444445in"}
+  [22]: media/image24.png{width="6.295833333333333in" height="2.7284722222222224in"}
+  [23]: media/image25.png{width="6.295833333333333in" height="3.9520833333333334in"}
+  [24]: media/image26.png{width="6.295833333333333in" height="2.7284722222222224in"}
+  [25]: media/image27.png{width="2.7224267279090113in" height="3.62990157480315in"}
+  [26]: media/image28.emf{width="4.5176071741032375in" height="4.687529527559055in"}
+  [27]: media/image29.png{width="2.642836832895888in" height="3.7835181539807525in"}
+  [28]: media/image30.emf{width="4.5176071741032375in" height="4.5176071741032375in"}
+  [29]: media/image31.emf{width="4.5176071741032375in" height="2.661826334208224in"}
+  [A screenshot of a cell phone Description automatically generated]: media/image32.png{width="6.3in" height="1.4949146981627297in"}
+  [30]: media/image33.png{width="6.3in" height="1.4949146981627297in"}
+  [31]: media/image34.png{width="6.3in" height="1.4949201662292213in"}
+
+[^1]:	.
