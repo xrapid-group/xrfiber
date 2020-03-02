@@ -203,7 +203,7 @@ The xRfiber microscope components are shown in Figure 6.1, additional components
 19. iPhone/iPad Cradle
 20. Ocular Locking Screws
 
-file:///.file/id=6571367.69825122
+![][image-1]
 Figure 6.1. xRfiber Microscope components
 
 
@@ -1220,3 +1220,5 @@ Pang07: A new parameter to evaluate the quality of fiber count data of slides wi
   [31]: media/image34.png{width="6.3in" height="1.4949201662292213in"}
 
 [1]:	mailto:%20support@xrapid-group.com
+
+[image-1]:	https://github.com/xrapid-group/xrfiber/blob/master/Pictures/Figure_6_1.png
