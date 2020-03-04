@@ -180,7 +180,7 @@ Additionally, the best results are obtained when:
 
 ### 6.1.1. Components
 
-The xRfiber microscope components are shown in Figure 6.1, additional components in the box are shown in Figure 6.2.
+The xRfiber microscope components are shown in Figure 6.1.
 
 1. Power Switch
 2. Power Adapter Port
@@ -204,8 +204,12 @@ The xRfiber microscope components are shown in Figure 6.1, additional components
 20. Ocular Locking Screws
 
 ![][image-1]
+
 Figure 6.1. xRfiber Microscope components
 
+Additional components in the box are shown in Figure 6.2.
+
+![][image-2]
 
 Figure 6.2. Additional components in the box
 
@@ -230,9 +234,9 @@ Figure 6.2. Additional components in the box
 
 1.  OPENING THE BOX
 
-Upon opening your xRfiber unit, please use the checklist provided to confirm all items have been received: the checklist is on the top of the box when opening it. If something is missing, please contact support@xrapid-group.com.
+Upon opening your xRfiber unit, please use the checklist provided to confirm all items have been received: the checklist is on the top of the box when opening it. If something is missing, please contact [support@xrapid-group.com][2].
 
-![][4]
+![][image-3]
 
 Figure 6.3. box contents
 
@@ -240,21 +244,15 @@ Figure 6.3. box contents
 
 When deciding where to place the xRfiber Platform, consider the following:
 
--   The platform should be placed on a stable, level surface
+- The platform should be placed on a stable, level surface
+- The platform should be placed conveniently as to minimize the need to move after initial setup
+- The area/room the platform is placed in should have consistent, even lighting as to prevent errors due to fluctuations in ambient lighting
+- Once a location has been selected, take the microscope out of the box and place it in the selected area
+- Remove the plastic wrapping from the microscope.
 
-<!-- -->
+Verify that the head of the microscope (A) is aligned with the body (B). If not, slide the head into alignment with the body by hand: apply a slight rotation of the head to align its edges with those of the body.
 
--   The platform should be placed conveniently as to minimize the need to move after initial setup
-
--   The area/room the platform is placed in should have consistent, even lighting as to prevent errors due to fluctuations in ambient lighting
-
--   Once a location has been selected, take the microscope out of the box and place it in the selected area
-
--   Remove the plastic wrapping from the microscope.
-
-Verify that the head of the microscope (A) is aligned with the body (B). If not, slide head into alignment with the body by hand: apply a slight rotation of the head to align its edges with those of the body.
-
-![][5]![][6]
+![][image-4]![][image-5]
 
 Figure 6.4. Alignment of the microscope head
 
@@ -262,7 +260,7 @@ Verify that the adjustable C-Mount Adapter (n°18) is aligned with the head of t
 
 Remove both Ocular Covers (n°35). Eventually use a air duster (not included) in the ocular openings to ensure that they are free of debris and dust.
 
-![][7]![][8]
+![][image-6] ![][image-7]
 
 Figure 6.5. Installation of the eyepieces
 
@@ -278,7 +276,7 @@ Slowly tighten the screw with the Allen Wrench H1.5 (n°33) to secure the eyepie
 
 5.  INSERTING THE TELESCOPIC EYEPIECE (N°28) FOR PHASE RING ALIGNMENT
 
-If you cannot insert it, loosen the eyepiece locking screw (n°20) with the Allen Wrench H1.5 (n°33) and try again.
+If you cannot insert the telescopic eyepiece, loosen the eyepiece locking screw (n°20) with the Allen Wrench H1.5 (n°33) and try again.
 
 Insert the Telescopic Eyepiece (n°27).
 
@@ -301,13 +299,8 @@ Turn the turret to align the objective (n°13) with optic train.
 #### Centering the condenser
 
 -   With no sample on the stage, slowly close the field iris by turning the dial around it clockwise.
-
-<!-- -->
-
 -   As the edges of the iris come into the field of view, adjust the center of the condenser using the Condenser Alignment Screws (n°16) located on the front left and front right sides of the condenser.
-
 -   When complete, the hexagon of the field iris should appear in the center of your field of view.
-
 -   Begin turning the dial on the field iris counter- clockwise until the edges of hexagon are just outside the field of view.
 
 #### Aligning the phase rings
@@ -317,24 +310,15 @@ Turn the turret to align the objective (n°13) with optic train.
 Phase rings are aligned following this process:
 
 -   With the telescopic eyepiece in one eyepiece, loosen the thumbscrew on the telescopic ocular and begin slowly pulling the telescope outward.
-
-<!-- -->
-
 -   Once you can see the light and dark rings clearly, tighten the thumbscrew to hold the position of the telescope. (DO NOT OVER-TIGHTEN)
-
 -   If the light ring does not appear to sit neatly inside the dark ring, note the position of the two rings.
-
 -   Remove the phase ring holder from the condenser.
-
 -   Carefully adjust the position of the phase ring using the small hex key (Allen Wrench n°33) provided on the screws located on the back right and front right edges of the ring holder using 1/4-3/4 turns for each adjustment.
-
 -   Return the holder to its place inside the condenser. Be sure that the notch for locking into the condenser is facing away from you and the handle of the ring holder is located on the right side of the condenser.
-
 -   Check the position of the rings through the Telescopic Eyepiece, if they are still out of alignment repeat the previous three (3) steps and check again until they are aligned.
-
 -   Once finished, return the telescopic ocular to its initial position and replace it with the standard Ocular (n°15).
 
-![][9]![][10]![][11]
+![][image-8] ![][image-9] ![][image-10]
 
 Figure 6.6. Illustration of the alignment of the rings (left and middle: misaligned, right: aligned)
 
@@ -356,43 +340,29 @@ Remove the C-Mount Adapter Cap and align the Cradle with the tube of the adapter
 
 Attach the Cradle to the microscope using the two screws (n°36) you removed.
 
-![][12]![][13]![][14]![][15]
+![][image-11] ![][image-12] ![][image-13] ![][image-14]
 
 Figure 6.7. Installation of the iPhone cradle
 
 7.  ALIGNING THE CRADLE (N°19)
 
 -   Unlock your device (iPhone/iPad) and open the “Measure” application (this comes installed on all iOS devices normally, if it is not installed search for it in the Apple App Store)
-
-<!-- -->
-
 -   Place the device across the stage of the microscope, taking care that it lays flat on the stage
-
 -   If the stage is not perfectly level, you can try moving the microscope or rotating it on the table to find the most level position in the selected area
-
 -   If you cannot get a zero (0) value after adjustments, take note of the level of the stage (degree and direction)
-
 -   Remove the device and place it in the cradle
-
 -   Loosen the locking knob on the adjustable C-mount adapter
-
 -   Slide the C-Mount Adapter up into the eyepiece tube of the cradle
-
 -   Make sure the adapter tube is fully inserted into the eyepiece tube completely past the screws in the eyepiece tube
-
 -   While holding the tube and cradle together, adjust the height of the adapter until you get an optimal level in that y-axis direction
-
 -   Tighten the locking knob on the adapter securely
-
 -   Once the adapter is locked, start tightening the screws on the cradle tube to secure it to the adapter
-
 -   Once secure, small adjustments can be made to the alignment through tightening/loosening these screws
-
 -   If your stage was not perfectly level, adjust the cradle positioning so that the cradle orientation best matches the direction and twist/yoke angles of the stage level measured in the first place.
 
 The ideal situation is shown below: the device both on stage and in cradle should show the same orientation, leveled at zero degrees in all directions.
 
-![][16]
+![][image-15]
 
 Figure 6.8. unbalanced (left) and perfectly flat orientations of the iPhone in its cradle and on stage
 
@@ -401,9 +371,6 @@ Figure 6.8. unbalanced (left) and perfectly flat orientations of the iPhone in i
 After going through Apple’s initialization guide, ensure the following:
 
 -   The device is logged into an iCloud account (this is required for location services to be active which is required for device use records).
-
-<!-- -->
-
 -   The device is connected to the internet (this is required to upload usage records for billing purposes).
 
 Open the Apple App Store and select the Search tab in the bottom right of the screen. Search for “xRfiber” and the application should appear in the results list. Press the Install option and confirm the installation with your password/thumbprint. Once the application is installed, turn on the microscope and then open the application once the LED light source has finished blinking three times (approx. 3-5 seconds from powering on).
@@ -421,9 +388,6 @@ The xRfiber app has many features to facilitate not only the diagnostic, but als
 When starting the app, the central button START MEASURE (5) is grayed out. After a few seconds, the app completes the connection to the microscope and is now ready to measure:
 
 -   the Bluetooth logo (1) is circled
-
-<!-- -->
-
 -   the large hexagonal START MEASURE (5) button turns white and animates to a pulsation.
 
 Notice that the Bluetooth logo (1) is more than just an icon: it is also a button that can be tapped again should the Bluetooth connection drop. It generally takes about 2-3 seconds to establish this connection.
@@ -434,7 +398,7 @@ Once a device is connected, the button (1) being circled, tapping the Bluetooth 
 
 **NOTE**: the Bluetooth functionality lets us discover the device based on the strength of the signal. If two devices are more than one meter apart, the iPhone/iPad will find the correct microscope, i.e. the microscope it is sitting on. If devices are closer, some mixing or confusion of signals may occur, and the device will have to be checked and connected manually using the pop up menu.
 
-![][17]
+![][image-16]
 
 Figure 6.9. Main screen in the disconnected state (left) and Bluetooth connected state (right)
 
@@ -470,7 +434,7 @@ The light button (10) is used to switch on/off the microscope light source. When
 
 The settings/options have 3 main categories, reached by tapping on the segmented control: User (1), Diagnostic (2), Print (3).
 
-![][18]
+![][image-17]
 
 Figure 6.10. Settings screens with the User (left), Diagnostic (middle) and Print (right) settings.
 
@@ -497,21 +461,12 @@ One can switch the user from the Main screen, or using the small arrows on the l
 8 Standards or Recommendations are currently supported:
 
 -   NIOSH 7400 Type A & B
-
-<!-- -->
-
 -   OSHA id 160
-
 -   NOSHC-3003
-
 -   IRSST 243-1
-
 -   HSG248
-
 -   NF X43-269
-
 -   NBN T 96-102
-
 -   Custom: enter your own path
 
 The main difference between them is mostly that some standards use a pseudo-random path (continuous measurements), and the sample geometry may also vary based on the regional recommendations.
@@ -524,7 +479,7 @@ Three entries are possible to customize the tests:
 
 -   The capture scale, in pixels per micrometer: this value is calibrated using a traceable micrometer slide before shipping to the customer, and checked during first deployment and any servicing of the machine. Normal value is 14.1 with a maximum error of 0.5%. It is recommended that this value is checked once a month.
 
--   Number of Walton-Beckett graticules: the newest iPad Pro 11’’ are capable of large computations, and as such it does make sense to measure more than one field per image captured. The image resolution is not changing between the two modes, and we can benefit from adding a second graticule, i.e. using the image captured for two fields instead of one. When doing so, we perform half the movements and therefore gain all these displacement times. In the case where two graticules are used, one should check that the scale is the same for both, or refrain from using two if this is the case. Should both graticules not have the same scale, the user should contact [support@xrapid-group.com] for immediate intervention/remediation.
+-   Number of Walton-Beckett graticules: the newest iPad Pro 11’’ are capable of large computations, and as such it does make sense to measure more than one field per image captured. The image resolution is not changing between the two modes, and we can benefit from adding a second graticule, i.e. using the image captured for two fields instead of one. When doing so, we perform half the movements and therefore gain all these displacement times. In the case where two graticules are used, one should check that the scale is the same for both, or refrain from using two if this is the case. Should both graticules not have the same scale, the user should contact [support@xrapid-group.com][3] for immediate intervention/remediation.
 
 Notice that those last three settings are entirely optional.
 
@@ -546,9 +501,13 @@ When entering the Measurement screen, the microscope light source will turn on a
 
 A default identifier (1) is automatically generated. It is grayed-out, and can be changed. Tapping this identifier will show the iOS keyboard (2), tapping the small X icon at the right of the field will dismiss all changes and the keyboard. Any identifier longer than one character can be entered. The case presented in Figure 6.11. enables the use of sequences: any string followed by a dash - and a number will be automatically followed by the the same string with the number incremented by one when the next test is launched. This is particularly useful when a file contains several samples with a resulting large number of slides.
 
-![][19]Figure 6.11. Starting a diagnostic with changing the default test identification
+![][image-18]
 
-![][20] The usual sequence is shown Figure 6.12: tap the Start Diagnostic hexagonal button (1), after which the diagnostic sequence executes automatically. One can adjust the position of the slide by tapping the Controls icon (2), which will bring up the in-plane control (3) and focus control (4). One can return to the start button by hitting the cross (5).
+Figure 6.11. Starting a diagnostic with changing the default test identification
+
+The usual sequence is shown Figure 6.12: tap the Start Diagnostic hexagonal button (1), after which the diagnostic sequence executes automatically. One can adjust the position of the slide by tapping the Controls icon (2), which will bring up the in-plane control (3) and focus control (4). One can return to the start button by hitting the cross (5).
+
+![][image-19]
 
 Figure 6.12. Illustration of entering a Diagnostic screen (right), start position being set up (middle), and diagnostic running (right)
 
@@ -558,11 +517,15 @@ Notice that the next time the analysis is launched, the test identification will
 
 ### 6.3.4. Results screen
 
-![][21]The results screen has a large number of potential actions, beyond displaying the results of a test (last or past). The unified results screen is the same whether one accesses it following the completion of a diagnostic or going back to it from a Test Log.
+The results screen has a large number of potential actions, beyond displaying the results of a test (last or past). The unified results screen is the same whether one accesses it following the completion of a diagnostic or going back to it from a Test Log.
+
+![][image-20]
 
 Figure 6.13. Results screen
 
-![][22]From this screen, one can access a record of the images captured by tapping button (1), or the export options with button (2). The date and time of the test are displayed in (4) and the test identification in (3). Notice that at this point, it is impossible to change the test identification. When the results screen is accessed, it always opens on the raw numbers resulting from the measurement: the total number of fibers and fields, for instance. As such, the segmented control (5) will always be selected by default. To change this display, one can tap the segmented control in (6) for example, to obtain the values in fibers per mm2. The Fields Counts (7) present the position and numbers of each and every field measured. The large button (8) leads back to the Tests Log screen or the Main screen depending where the unified result was displayed from.
+From this screen, one can access a record of the images captured by tapping button (1), or the export options with button (2). The date and time of the test are displayed in (4) and the test identification in (3). Notice that at this point, it is impossible to change the test identification. When the results screen is accessed, it always opens on the raw numbers resulting from the measurement: the total number of fibers and fields, for instance. As such, the segmented control (5) will always be selected by default. To change this display, one can tap the segmented control in (6) for example, to obtain the values in fibers per mm2. The Fields Counts (7) present the position and numbers of each and every field measured. The large button (8) leads back to the Tests Log screen or the Main screen depending where the unified result was displayed from.
+
+![][image-21]
 
 Figure 6.14. Results screen (2)
 
@@ -571,35 +534,34 @@ The cognoscenti will have recognized that no volume is indicated on this set of 
 Important notes:
 
 -   the volume cannot be changed after it has been set, obviously
-
-<!-- -->
-
 -   once the fibers/cc segmented control is tapped one **must** enter a volume.
 
 When the volume has been entered, the fiber density will be displayed.
 
 Notice that in all displays of the results, the quantity of fibers as well as the minimum and maximum bounds defined by the associated standard are displayed.
 
-![][23]Figure 6.15. Statistics reports
+![][image-22]
+
+Figure 6.15. Statistics reports
 
 ![][24]As noted above, the fields counts are accessed from the Results screen. They indicate the number of debris and fibers measured in all the fields, together with their location. The plots on top can be swiped to display plots of the fiber distribution, the debris distribution. The fibers length vs. width is interesting as it gives an idea of the type of fibers one has measured. Both fiber and debris distributions are used to evaluate whether they follow a Poisson distribution (within 95% confidence), which is a measure of the randomness of the sample (and the base hypothesis of all standards).
 
+![][image-23]
 Figure 6.16. Reviewing and exporting images
 
 Depending upon options and version, the images of every field captured may be available from the Results screen. Navigation is quite standard for iOS, let us mention at least that one can pick and export images through that screen. Because of memory restrictions, one cannot select more than 50 pictures for export at a time. When an image is tapped, it is magnified. A double-tap on the magnified image will zoom in and out, pinch to zoom is enabled, and swiping to the right/left presents the next/previous image respectively.
 
 Exporting results is performed through the Action button. It opens a set of options, to share as an image (in PNG format), as a printable sheet (in PDF format), to print directly using the iOS print server, or to save as comma-separated-value (two options). The latter is used to export to Excel or Numbers or other spreadsheet software. xRfiber normally manages the export format according to locale settings (i.e. a distinction is made between decimal separator and column separator depending upon the localization of the device). Should your export results come out poorly, do not hesitate to contact support@xrapid-group.com.
 
-![][25]
+![][image-24]
 
 Figure 6.17. Results export options
 
 There are two options to export as CSV: one can either export the full result, or export the raw fiber counts data. In the latter case, a table of groups of 5 rows with 5 columns will be exported. All those raw counts are usually easy to copy and paste into LIMS systems.
 
-The iOS system is complete, and as such it is possible to export to other networked devices. In cases of mixed ecosystems, eg. PCs which are frequently used in laboratory settings, one can export from the iPad or iPhone (running iOS 13) to a thumb drive and use this device to transfer data. Feel free to contact [support@xrapid-group.com] should you need a recommendation for adapters and/or thumb drives.
+The iOS system is complete, and as such it is possible to export to other networked devices. In cases of mixed ecosystems, eg. PCs which are frequently used in laboratory settings, one can export from the iPad or iPhone (running iOS 13) to a thumb drive and use this device to transfer data. Feel free to contact [support@xrapid-group.com][4] should you need a recommendation for adapters and/or thumb drives.
 
 6.4. Calibration
----- 
 
 The xRfiber microscope comes fully calibrated. Regular operation according to most standards require the use of two calibration slides for the resolution and the scale. The calibration is checked by xRapid during any visit and/or servicing. The user cannot check the calibration of the unit.
 
@@ -611,41 +573,33 @@ NOTE: the unit is calibrated for a specific set of optics provided, any change o
 
 To test the resolution of the microscope, a HSE-NPL reference slide is used. The dimensions of the lines of each band are as follows, with Band Numbers | Line Width (um) |Maximum theoretical phase change for light (lambda=530nm) passing through a test line:
 
-• 1 | 1.08 | 6.6°
-
-• 2 | 0.77 | 4.7°
-
-• 3 | 0.64 | 3.9°
-
-• 4 | 0.53 | 3.2°
-
-• 5 | 0.44 | 2.7°
-
-• 6 | 0.36 | 2.2°
-
-• 7| 0.25 | 1.5°
+- 1 | 1.08 | 6.6°
+- 2 | 0.77 | 4.7°
+- 3 | 0.64 | 3.9°
+- 4 | 0.53 | 3.2°
+- 5 | 0.44 | 2.7°
+- 6 | 0.36 | 2.2°
+- 7| 0.25 | 1.5°
 
 Each of the HSE standard test slides is an epoxy replica of the NPL Master. An impression of the lines is produced in a resin of refractive index 1.58 and is mounted on a standard glass microscope slide (76 x 25 x 1.2mm). This impression is sealed in another resin of refractive index 1.485 and covered with a standard (0.17mm thick) glass coverslip. To maintain a steady level of quality between slides HSL assesses each one. Only the test zone bound by the four sets of intense lines is examined assess the contrast of the band 4, 5, 6 & 7 and inspected for dust deposits that may cause light or dark spots. The whole slide is inspected for cracks, splits and other defaults in manufacture. Although these defects cannot be eliminated, all slides are considered to be satisfactory.
 
 HSL certifies the test slides as satisfactory for use to set up phase contrast microscope and categorizes them into three sets:
 
 1.  those that have band 4 fully visible and band 5 partially visible (red documents)
-
 2.  those that have band 5 fully visible and band 6 partially visible (green documents)
-
 3.  those that have band 6 fully visible and band 7 partially visible (yellow documents).
 
 Each xRfiber microscope is tested with a band 5 slide (option 2, green document).
 
 #### Results
 
-![][26]
+![][image-25]
 
 Figure 6.19. HSE-NPL slide bands as measured by the xRfiber unit
 
 #### Method
 
-The microscope is fitted with the same optics that are used for the automated diagnostic, i.e. an Olympus Plan CN ✕40 objective, the eyepiece, and an iOS device (iPhone 7/8, iPad Pro 10.5”). The HSE-NPL slide is manually centered to the objective on the bands 1-2. The focus is manually adjusted using the Z-knob.
+The microscope is fitted with the same optics that are used for the automated diagnostic, i.e. an Olympus Plan CN ✕40 objective, the eyepiece, and an iOS device (iPhone 7/8, iPad Pro 10.5” or 11”). The HSE-NPL slide is manually centered to the objective on the bands 1-2. The focus is manually adjusted using the Z-knob.
 
 The slide is scanned in the Z-direction and the same processing as the diagnostic app is used in order to obtain the best composite image from 44 slices interspaced at 0.5um in the z-direction. The images are kept in an internal xRapid QC database. Each image is further checked for quality and given a pass or fail score (binary).
 
@@ -655,26 +609,22 @@ The scale and gratings/grids displayed are displayed by software, and factory ca
 
 The calibration factor for the images captures is 1415 pixels for 100µm. The maximum error permitted is ±5 pixels, that is approximately 0.35µm. The scale is checked for all microscopes on the app by simply imaging a square grid with a 50µm pitch and checking that the Walton Beckett graticule matches the spacing. In the image below the WB graticule is reasonably within 3 pixels of the grating limits.
 
-![][27]
+![][image-26]
 
 Figure 6.20. Application view of the 50µm square pitch graticule
 
 The image captured using the same process as the diagnostic is checked for scale: the image is 1800 pixels in both width and height, and the dimensions determined are marked on the image below.
 
-![][28]
+![][image-27]
 
 Figure 6.21. image captured of a 50µm square pitch graticule
 
 While the graticule dimensions should be checked on the measurement screen for quick validation, the only important piece of data is contained in the images captured — the measurement screen is a reflection of the scale determined from a captured image. The process is the following:
 
 -   first, position the calibrated slide (grid or scale) conveniently on the microscope, and focus on the lines that need be measured;
-
 -   Second, capture the image(s) by starting the test
-
 -   Third, interrupt the test after a few steps — the microscope will have run out of grid area
-
 -   Fourth, export the images to a PC/Mac by means of the usual way for iOS and your operating system.
-
 -   Finally, measure the two orange lines shown in Figure 6.21. This should be around 1400 pixels for a space between consecutive ticks or lines of 100µm.
 
 ### 6.4.3. Precision/Accuracy versus Proficiency Testing
@@ -685,7 +635,7 @@ xRfiber has been evaluated versus proficiency test slides. The conditions were s
 
 Samples from proficiency test rounds over the last two years were used, the results are shown below.
 
-![][29]
+![][image-28]
 
 Figure 6.22: plot of the results of the three repetitions with various random start positions versus the reference count of proficiency samples. The empty boxes represent the lower and upper acceptable bounds, while the bullets are the measurement results, color coded per run. The Reference Value and acceptable bounds are determined from a number of laboratories not taking part in the proficiency round, which have been known to provide a reliable analysis. From the results of those laboratories, an average value is calculated (the Reference Value), together with a standard deviation. The acceptable range is within three standard deviations.
 
@@ -703,34 +653,30 @@ The latest revision of NIOSH 7400 states that “From these equations, the confi
 
 ### 6.4.5. Results of Proficiency test rounds
 
-The results obtained at some customer sites using xRfiber are reported in the three following tables. Should your results differ greatly from those, please contact [support@xrapid-group.com] .
+The results obtained at some customer sites using xRfiber are reported in the three following tables. Should your results differ greatly from those, please contact [support@xrapid-group.com][5] .
 
 Table 6.1: Results of IHPAT round 217
 
-![A screenshot of a cell phone Description automatically generated]
+![][image-29]
 
 Table 6.2: Results of IHPAT round 218
 
-![A screenshot of a cell phone Description automatically generated][30]
+![][image-30]
 
 Table 6.3: Results of IHPAT round 219
 
-![A screenshot of a cell phone Description automatically generated][31]
+![][image-31]
 
-6.5. Standard care and cleaning of the unit
----- 
+## 6.5. Standard care and cleaning of the unit
 
 ### 6.5.1. Standard care
 
 For optimal results, xRfiber must be used in a microscopy environment, that means:
 
 -   Air regulated area to avoid dust.
-
-<!-- -->
-
 -   No vibration. The xRfiber platform must be installed in a stable and robust stage, uncoupled from floor vibrations.
 
-Additionally, the microscope must be covered by its plastic pouch when not in use, to avoid the deposition of dust. Furthermore, the silicon tip must be inserted in the hole of the eyepiece of the trinocular when the iPhone/iPad is not on its cradle.
+Additionally, the microscope must be covered by its plastic pouch when not in use, to avoid the deposition of dust. Furthermore, the silicon tip must be inserted in the hole of the eyepiece of the trinocular tube when the iPhone/iPad is not on its cradle.
 
 ### 6.5.2. Cleaning the microscope
 
@@ -739,66 +685,36 @@ Additionally, the microscope must be covered by its plastic pouch when not in us
 Process for cleaning the xRfiber platform
 
 1.  Remove the cradle
-
 	1.  Begin by the socket head screws that they maintain the cradle support in the microscope head.
-
 	2.  Remove the cradle with the eyepiece.
-
 	3.  Loosen the three screws which maintain the eyepiece on the cradle cylinder and remove the eyepiece.
-
 	4.  Clean the eyepiece using a dust air spray, clean it on its top and on its bottom.
-
 	5.  If some impurities remain on the lens, use a lens cleaning paper (always with linear motion), and use the compressed air spray when finished.
-
 2.  Remove the trinocular tube by loosening manually the two screws maintaining it
-
 3.  Use the compressed air spray to clean the glass on the top of the head.
-
-4.  Remove the head of the microscope using a 2.5mm Allen wrench.
-
+4.  Remove the head of the microscope using a 2.5mm Allen wrench
 	1.  Remove the Olympus objective from the turret.
-
 	2.  Turn the turret to place the opened orifice in line with the optic train. From the top of the microscope, use the compressed air spray to clean the microscope and the turret.
-
 5.  Reassemble the head of the microscope.
-
 6.  Reassemble the trinocular tube.
-
 7.  Place the eyepiece in the cradle cylinder and slowly fasten the 3 screws to maintain it.
-
 8.  Reassemble the complete cradle and maintain it fastening both screws on the microscope head.
-
 9.  Use the compressed air spray to clean the objective and reassemble it on the turret.
-
 10. Use the compressed air to remove dust on:
+	1. The lenses on the top of the condenser.
+	2. The glass on the top of the light diaphragm.
 
--   The lenses on the top of the condenser.
-
-<!-- -->
-
--   The glass on the top of the light diaphragm.
-
-If use the front oculars are in use, to clean them:
-
+If both the front oculars are in use, to clean them:
 -   Remove both oculars using a 1.5mm Allen wrench.
-
-<!-- -->
-
 -   Use the compressed air spray to clean inside the microscope head oculars orifices.
-
 -   Use the compressed air spray to clean both oculars on their top and on their bottom. If some impurities are still existing, use the lens cleaning paper to remove them (every time with linear motion), and use the air compressed spray to finalize the oculars cleaning.
 
 The xRfiber microscope is now normally clean to proceed with the analysis. Do not forget to clean your Apple device camera lens using the lens cleaning paper.
 
-6.6. Updating the App
----- 
+## 6.6. Updating the App
 
 From time to time, the app may be updated from the App Store, over two ways:
-
 -   in the background if this option was checked in the iOS App Store
-
-<!-- -->
-
 -   by checking if an update is present, if auto-updates are not allowed.
 
 In all cases, xRapid will contact all customers before an update is released.
@@ -807,22 +723,17 @@ In all cases, xRapid will contact all customers before an update is released.
 
 **NOTE**: do **NOT** delete the app before updating it, this will cause a loss of data.
 
-6.7. Troubleshooting
+## 6.7. Troubleshooting
 
-A list of most common issues is given in this section. In all cases, when in doubt contact support@xrapid-group.com.
+A list of most common issues is given in this section. In all cases, when in doubt contact [support@xrapid-group.com][6].
 
 *Issue: The light does not switch on*
 
 *Resolution*:
 
 -   Is your microscope currently plugged in a power source, and does your power source surely work (110V 60Hz, 230V 50Hz)?
-
-<!-- -->
-
 -   Is your microscope switched on?
-
 -   Do you use the power supply delivered with microscope?
-
 -   Try to switch off and switch on again your microscope, it could be in the sleeping mode.
 
 *Issue: My Apple device does not charge when I plug it on the USB microscope socket*
@@ -830,11 +741,7 @@ A list of most common issues is given in this section. In all cases, when in dou
 *Resolution*:
 
 -   Is the microscope light on?
-
-<!-- -->
-
 -   If yes, try with another lightning cable.
-
 -   If no, please refer to ‘The light does not switch on’.
 
 *Issue: No microscope found by the xRfiber App*
@@ -842,17 +749,10 @@ A list of most common issues is given in this section. In all cases, when in dou
 *Resolution*:
 
 -   Kill the xRfiber App and switch off your microscope.
-
-<!-- -->
-
 -   Is your Apple device Bluetooth on?
-
 -   Switch on your microscope.
-
 -   Does the microscope light blink three times?
-
 -   If no, please refer to ‘The light does not switch on’.
-
 -   If yes, reopen the App, the microscope should become visible and connected in a few seconds.
 
 *Issue: The microscope does not move when I launch a diagnosis*
@@ -866,13 +766,8 @@ A list of most common issues is given in this section. In all cases, when in dou
 *Resolution*:
 
 -   Ensure that the Apple device is in the correct place in its cradle and its camera is aligned with the cradle camera orifice.
-
-<!-- -->
-
 -   Ensure that the turret is turned well, the objective must be in line with the optics train.
-
 -   Is the condenser diaphragm in its ‘PH’ position?
-
 -   Is the microscope light on? If no, please refer to ‘The light does not switch on’.
 
 *Issue: Shadow in a portion of the field of view*
@@ -880,11 +775,7 @@ A list of most common issues is given in this section. In all cases, when in dou
 *Resolution*:
 
 -   Is the condenser on its uppermost position?
-
-<!-- -->
-
 -   Is the Apple device placed well in the cradle? Its camera must be aligned with the cradle orifice.
-
 -   Is your cradle parallel with the stage? A level tool is available in the box to help you for the settings.
 
 *Issue: Vibrations on images captured*
@@ -899,43 +790,29 @@ A list of most common issues is given in this section. In all cases, when in dou
 
 Please refer to the user manual for light and PCM alignment setup.
 
-For any other issue, please contact the xRapid support team at support@xrapid-group.com or by scanning the QR code placed under your microscope.
+For any other issue, please contact the xRapid support team at [support@xrapid-group.com][7] or by scanning the QR code placed under your microscope.
 
 *Issue: the count on blank slides is high*
 
 *Resolution*:
 
 -   Check that the optics are clean, refer to the manual for cleaning them if this is not the case
-
 -   Check that the slide is really blank: frequent cases of contamination on unsealed slides have been observed
-
--   Contact [support@xrapid-group.com] in case of doubt.
+-   Contact [support@xrapid-group.com][8] in case of doubt.
 
 ## 6.8. Limitations
 
 The app is known to have some limitations when samples are damaged or have been poorly prepared. In particular, those cases:
 
--   undissolved filters
-
-<!-- -->
-
--   overloaded filters
-
--   inconsistent filters
-
-	-   damaged/broken filters
-
-	<!-- -->
-
-	-   unleveled filters
-
--   slides with too many bubbles entrapped
-
--   filters with fibers on both faces (cross contamination)
-
--   dirty slide coverslips and/or slide bottom surface
-
--   unknown objects, e.g. mold
+- undissolved filters
+- overloaded filters
+- inconsistent filters
+- damaged/broken filters		
+- unleveled filters
+- slides with too many bubbles entrapped
+- filters with fibers on both faces (cross contamination)
+- dirty slide coverslips and/or slide bottom surface
+- unknown objects, e.g. mold
 
 will eventually lead to either a poor performance or erroneous results.
 
@@ -946,13 +823,8 @@ Let us now describe those in detail and see the potential resolutions.
 #### Overview
 
 When the acetone atomizer is not functioning properly, for instance not heating up to the required temperature of 70°C, the filter will be dissolved only partially. The issue, with xRFiber working on the luminance channel, are that:
-
 -   the detection of gridlines is hampered,
-
-<!-- -->
-
 -   the sample appears to the AI as overloaded,
-
 -   more generally the sample does not enable detection of fine chrysotile fibers.
 
 As a result, the app performs poorly on those samples, and may not yield accurate results. When such a sample is detected, the app switches to a “safe” mode, which will not detect fine fibers but only consider coarse ones.
@@ -960,13 +832,8 @@ As a result, the app performs poorly on those samples, and may not yield accurat
 #### Resolution
 
 The only solution is to prepare better samples, or to read those slides manually. To prepare better samples:
-
 -   make sure that the “Ready” light present on most atomizers indicates that the heater body of the atomizer is at the correct temperature
-
-<!-- -->
-
 -   if this last point is correct and you are still seeing undissolved filters, check the atomizer (compare to another working atomizer). Replace the atomizer in case it is damaged
-
 -   if the atomizer is not the culprit, it may be worth checking the filters: have you changed brand, or the lot is inconsistent?
 
 ### 6.8.2. Overloaded filters
@@ -990,12 +857,8 @@ Second, in case one cannot re-sample, there is an override in the xRFiber app th
 #### Overview
 
 There are two main kinds of inconsistent filters encountered in practice:
-
--   broken filters: in this case xRFiber detects the edge of the broken filter and doesn’t account for it as a fiber. It will also keep the focus quite accurately. However, it will miss a few fields which will be counted as zeroes (blank fields).
-
-<!-- -->
-
--   uneven filters: an uneven thickness is only likely to happen if we have some applied force during the mounting of the sample. In most cases, xRFiber will not be disturbed by this change of depth of the filter: xRFiber is able to compensate for up to 5 micrometers of change of depth in either direction from field to field.
+- broken filters: in this case xRFiber detects the edge of the broken filter and doesn’t account for it as a fiber. It will also keep the focus quite accurately. However, it will miss a few fields which will be counted as zeroes (blank fields).
+- uneven filters: an uneven thickness is only likely to happen if we have some applied force during the mounting of the sample. In most cases, xRFiber will not be disturbed by this change of depth of the filter: xRFiber is able to compensate for up to 5 micrometers of change of depth in either direction from field to field.
 
 #### Resolution
 
@@ -1044,14 +907,9 @@ Use a wipe to clean off the dust from the top and bottom surfaces. Use a good br
 #### Overview
 
 The xRFiber AI has been conceived to classify accurately fibers and debris. While it also has the capability to classify correctly some fiber-like objects, it has not yet been expanded to cover all of the following types of objects:
-
--   molds
-
-<!-- -->
-
--   pollens
-
--   hyphae.
+- molds
+- pollens
+- hyphae.
 
 In most cases the results will show that the Poisson distribution is not valid over the full slide. And of course, when objects are very similar in appearance to fibers, they may be wrongly qualified as fibers.
 
@@ -1059,110 +917,61 @@ In most cases the results will show that the Poisson distribution is not valid o
 
 We are working actively on a way to discriminate contaminated air samples. In the meantime, we recommend that the slide is checked manually when both Poisson distributions are invalid. We do also welcome anomalous images captured using xRfiber from our users: this is included, after proper vetting, into our database of images for training our AI, so that this anomaly is properly accounted for the next time it is encountered.
 
-# 7.   CHECKLISTS
+# 7. CHECKLISTS
 
-# 7.1.  Proficiency testing
+## 7.1.  Proficiency testing
 
 1.  Installation and training complete
-
 	a.  Unit installed
-
 	b.  Training received
-
 	c.  Environment evaluated
-
-	i.  Vibration free platform
-
-	ii. Consistent, indirect lighting
-
+	i.  Vibration free platform	
+	ii. Consistent, indirect lighting	
 	iii. Power supplies connected
-
 2.  Verification of proper size of magnified Walton Beckett graticule image (100μm diameter) by direct comparison on the screen
-
 3.  Confirmation of ability to control and move stage with in-app manual controls
-
 4.  Verification of HSE/NPL Test slide compliance - lines in series 5 visible, some of the lines in series 6 are visible but not all
-
 5.  Preparation of testing samples (45) completed: fresh samples processed from archived filters of proficiency inter-comparison exercises
-
 	a.  Using xRfiber Template for preparation (optional)
-
 	b.  Proficiency program samples from within the last five years
-
-	i.  Eight proficiency chrysotile samples
-
-	ii. Seven proficiency amosite (amphibole) samples
-
-	iii. Five proficiency man-made fiber samples
-
-	iv. Two proficiency “Blank” samples
-
-	v.  Three production “Overload” samples
-
+	i.  Eight proficiency chrysotile samples	
+	ii. Seven proficiency amosite (amphibole) samples	
+	iii. Five proficiency man-made fiber samples	
+	iv. Two proficiency “Blank” samples	
+	v.  Three production “Overload” samples	
 	c.  Live samples
-
-	i.  Six samples with low fibers count
-
-	ii. Seven samples with medium fibers count
-
+	i.  Six samples with low fibers count	
+	ii. Seven samples with medium fibers count	
 	iii. Seven samples with high fibers count
-
 6.  Samples analyzed
-
 7.  Data sheet completed.
 
-
-
-1.  Starting a series of measurements
+## 7.2. Starting a series of measurements
 
 1.  microscope plugged to the power source
-
 2.  switch on the microscope
-
 3.  Did the microscope light source blink 3 times when it was switched on
-
 4.  Is the light permanently on
-
 5.  Is the 40✕ objective aligned with the optics train
-
 6.  align the condenser with the light source
-
 7.  open the light source diaphragm to produce a Köhler illumination
-
 8.  check the condenser diaphragm is on its PH position
-
 9.  check the objective and phase condenser rings are centered and aligned
-
 10. check the iPhone/iPad connect to the microscope
-
 11. Eventually switch the operator
-
 12. Check that the standard selected in Settings is appropriate
-
 13. check the app moves the microscope stage in 3 orthogonal directions using the Manual functions on screen
-
 14. check the focus can be adjusted within 2-3 Z-graduations between the eyepiece and the iPhone
-
 15. Verification of proper size of magnified Walton Beckett graticule image (100μm diameter) by direct comparison on screen
-
 16. Verification of HSE/NPL Test slide compliance - lines in series 5 visible, lines in series 6 partially visible
-
 17. Preferably use the xRfiber template for slide preparation
-
 18. Locate the slide 2mm from the corner of the quarter disc (filter)
-
 19. Eventually change the sample ID
-
 20. Press the start button
-
 21. Always check that the first sample in a series is being captured correctly: no loss of focus, field to field translations are appropriate (no sticking points between samples and out of plane)
-
 22. Check that blanks are reporting low counts, appropriately
-
 23. Pull samples marked for QC in the app, or others at the operator’s choice, and either check them by passing them through xRfiber from a different start position, or reading them manually
-
 24. Additional samples are processed from point 17 onwards.
-
 25. Periodically check that the rings are aligned.
 
 # 8. REFERENCES
@@ -1185,42 +994,43 @@ NBN T 96-102: Workplace atmospheres - Determination of asbestos fibre concentrat
 
 Pang07: A new parameter to evaluate the quality of fiber count data of slides with relocatable fields. 2007. Journal of Occupational and Environmental Hygiene, 4: 129-144.
 
-[Figure_6_1]()([Figure\_6\_1.png][3])
-  []: media/image1.png{width="2.744792213473316in" height="1.0258311461067366in"}
-  [1]: media/image2.tiff{width="2.759027777777778in" height="4.015384951881015in"}
-  [2]: media/image4.tiff{width="4.5176071741032375in" height="6.464420384951881in"}
-  [3]: media/image5.tiff{width="4.5176071741032375in" height="2.99375656167979in"}
-  [4]: media/image6.tiff{width="2.361111111111111in" height="2.375in"}
-  [5]: media/image7.tiff{width="1.3888888888888888in" height="1.8611111111111112in"}
-  [6]: media/image8.tiff{width="3.0694444444444446in" height="1.8472222222222223in"}
-  [7]: media/image9.tiff{width="2.2222222222222223in" height="1.6527777777777777in"}
-  [8]: media/image10.tiff{width="2.2222222222222223in" height="1.6527777777777777in"}
-  [9]: media/image11.tiff{width="1.4444444444444444in" height="1.4861111111111112in"}
-  [10]: media/image12.tiff{width="1.4444444444444444in" height="1.4861111111111112in"}
-  [11]: media/image13.tiff{width="1.4444444444444444in" height="1.4861111111111112in"}
-  [12]: media/image14.tiff{width="1.5in" height="1.5in"}
-  [13]: media/image15.tiff{width="1.5in" height="1.5in"}
-  [14]: media/image16.tiff{width="1.5in" height="1.5in"}
-  [15]: media/image17.tiff{width="1.5in" height="1.5in"}
-  [16]: media/image18.png{width="4.5176071741032375in" height="3.766554024496938in"}
-  [17]: media/image19.png{width="6.295833333333333in" height="3.5256944444444445in"}
-  [18]: media/image20.png{width="6.295833333333333in" height="3.5256944444444445in"}
-  [19]: media/image21.png{width="6.295833333333333in" height="3.588888888888889in"}
-  [20]: media/image22.png{width="6.295833333333333in" height="3.2736111111111112in"}
-  [21]: media/image23.png{width="6.295833333333333in" height="3.5256944444444445in"}
-  [22]: media/image24.png{width="6.295833333333333in" height="2.7284722222222224in"}
-  [23]: media/image25.png{width="6.295833333333333in" height="3.9520833333333334in"}
-  [24]: media/image26.png{width="6.295833333333333in" height="2.7284722222222224in"}
-  [25]: media/image27.png{width="2.7224267279090113in" height="3.62990157480315in"}
-  [26]: media/image28.emf{width="4.5176071741032375in" height="4.687529527559055in"}
-  [27]: media/image29.png{width="2.642836832895888in" height="3.7835181539807525in"}
-  [28]: media/image30.emf{width="4.5176071741032375in" height="4.5176071741032375in"}
-  [29]: media/image31.emf{width="4.5176071741032375in" height="2.661826334208224in"}
-  [A screenshot of a cell phone Description automatically generated]: media/image32.png{width="6.3in" height="1.4949146981627297in"}
-  [30]: media/image33.png{width="6.3in" height="1.4949146981627297in"}
-  [31]: media/image34.png{width="6.3in" height="1.4949201662292213in"}
-
 [1]:	mailto:%20support@xrapid-group.com
-[3]:	https://github.com/xrapid-group/xrfiber/blob/master/Pictures/Figure_6_1.png "Figure_6_1.png"
+[2]:	mailto:support@xrapid-group.com
+[3]:	mailto:%20support@xrapid-group.com
+[4]:	mailto:%20support@xrapid-group.com
+[5]:	mailto:%20support@xrapid-group.com
+[6]:	mailto:%20support@xrapid-group.com
+[7]:	mailto:support@xrapid-group.com
+[8]:	mailto:support@xrapid-group.com
 
 [image-1]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_1.png
+[image-2]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_2.png
+[image-3]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_3.png
+[image-4]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_4_a.png
+[image-5]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_4_b.png
+[image-6]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_5_a.png
+[image-7]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_5_b.png
+[image-8]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_6_a.png
+[image-9]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_6_b.png
+[image-10]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_6_c.png
+[image-11]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_7_a.png
+[image-12]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_7_b.png
+[image-13]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_7_c.png
+[image-14]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_7_d.png
+[image-15]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_8.png
+[image-16]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_9.png
+[image-17]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_10.png
+[image-18]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_11.png
+[image-19]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_12.png
+[image-20]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_13.png
+[image-21]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_14.png
+[image-22]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_15.png
+[image-23]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_16.png
+[image-24]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_17.png
+[image-25]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_19.png
+[image-26]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_20.png
+[image-27]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_21.png
+[image-28]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_22.png
+[image-29]:	https://xrapid-group.github.io/xrfiber/Pictures/Table_6_1.png
+[image-30]:	https://xrapid-group.github.io/xrfiber/Pictures/Table_6_2.png
+[image-31]:	https://xrapid-group.github.io/xrfiber/Pictures/Table_6_3.png
