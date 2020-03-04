@@ -647,6 +647,9 @@ The confidence values reported in the results are calculated using the equations
 
 $$ LCL(n) = \frac{2n + 2.6^2-\sqrt{\left(2.6^2+2n \right)^2-4 \left(1-2.6^2 Sr^2 \right) n^2}}{2 \left(1-2.6^2 Sr^2 \right)} $$
 
+$$ HCL(n) = \frac{2n + 1.8^2-\sqrt{\left(1.8^2+2n \right)^2-4 \left(1-1.8^2 Sr^2 \right) n^2}}{2 \left(1-1.8^2 Sr^2 \right)} $$
+
+
 where n is the number of fibers detected, and Sr is a “subjective inter-laboratory relative standard deviation, which is close to the total inter-laboratory Sr when approximately 100 fibers are counted”.
 
 The latest revision of NIOSH 7400 states that “From these equations, the confidence limits accounting for both subjective microscopist and Poisson components for various fiber counts are calculated by taking Sr = 0.2. The intra- and inter- microscopist variability may be greater if quality control is poor”. Accordingly, xRfiber uses a value of Sr = 0.2, corresponding to a confidence interval of 0.95.
@@ -978,19 +981,17 @@ We are working actively on a way to discriminate contaminated air samples. In th
 
 NIOSH7400: Asbestos and other fibers by PCM 7400, 2019. NIOSH Manual of Analytical Methods, Fifth edition. *This revision replaces Method 7400, issue 2 (dated 08/15/1994)*
 
-OSHA id 160: Asbestos in Air [*link*]
+OSHA id 160: Asbestos in Air [*link*][9]
 
-NOSHC-3003: GUIDANCE NOTE ON THE MEMBRANE FILTER METHOD FOR ESTIMATING AIRBORNE ASBESTOS FIBRES
+NOSHC-3003: GUIDANCE NOTE ON THE MEMBRANE FILTER METHOD FOR ESTIMATING AIRBORNE ASBESTOS FIBRES 2ND Edition. 2005 [*link*][10]
 
-2ND Edition. 2005 [*link*]
+IRSST 243-1: fiber count. Technical and scientific reports and notes, Analytical method 243-1. 1995. [*link*][11]
 
-IRSST 243-1: fiber count. Technical and scientific reports and notes, Analytical method 243-1. 1995. [*link*]
+HSG248: Asbestos: The analysts’ guide for sampling, analysis and clearance procedures. 2005. ISBN 9780717628759. [*link*][12]
 
-HSG248: Asbestos: The analysts’ guild for sampling, analysis and clearance procedures. 2005. ISBN 9780717628759. [*link*]
+NF X43-269: Qualité de l'air - Air des lieux de travail - Prélèvement sur filtre à membrane pour la détermination de la concentration en nombre de fibres par les techniques de microscopie : MOCP, MEBA et META - Comptage par MOCP. 2017. [*link*][13]
 
-NF X43-269: Qualité de l'air - Air des lieux de travail - Prélèvement sur filtre à membrane pour la détermination de la concentration en nombre de fibres par les techniques de microscopie : MOCP, MEBA et META - Comptage par MOCP. 2017. [*link*]
-
-NBN T 96-102: Workplace atmospheres - Determination of asbestos fibre concentration - Membrane filter method with optical phase contrast microscopy. 1999. [*link*]
+NBN T 96-102: Workplace atmospheres - Determination of asbestos fibre concentration - Membrane filter method with optical phase contrast microscopy. 1999. [*link*][14]
 
 Pang07: A new parameter to evaluate the quality of fiber count data of slides with relocatable fields. 2007. Journal of Occupational and Environmental Hygiene, 4: 129-144.
 
@@ -1002,6 +1003,12 @@ Pang07: A new parameter to evaluate the quality of fiber count data of slides wi
 [6]:	mailto:%20support@xrapid-group.com
 [7]:	mailto:support@xrapid-group.com
 [8]:	mailto:support@xrapid-group.com
+[9]:	https://www.osha.gov/dts/sltc/methods/inorganic/id160/id160.pdf
+[10]:	https://www.safeworkaustralia.gov.au/system/files/documents/1702/guidancenote_membranefiltermethodforestimatingairborneasbestosfibres_2ndedition_nohsc3003-2005_pdf.pdf
+[11]:	https://www.irsst.qc.ca/Portals/0/upload/3-laboratoires/243-1ang.pdf
+[12]:	https://meijitechno.com/pdfs/Asbestos_Analysis_hsg248.pdf
+[13]:	https://www.boutique.afnor.org/norme/nf-x43-269/qualite-de-l-air-air-des-lieux-de-travail-prelevement-sur-filtre-a-membrane-pour-la-determination-de-la-concentration-en-nom/article/870227/fa187994
+[14]:	https://shop.nbn.be/Search/SearchResults.aspx?a=96-102&b=&c=&d=&e=&f=&h=0&i=&UIc=en&y=&m=
 
 [image-1]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_1.png
 [image-2]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_2.png
