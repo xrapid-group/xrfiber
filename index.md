@@ -643,7 +643,7 @@ Based on these results, baring the natural deviations due to the randomness of t
 
 ### 6.4.4. Confidence values
 
-The confidence values reported in the results are calculated using the equations given in NIOSH 7400, which describe the lower confidence limit (\LCL\) and higher confidence limit (\HCL\), as:
+The confidence values reported in the results are calculated using the equations given in NIOSH 7400, which describe the lower confidence limit LCL and higher confidence limit \$HCL\$, as:
 
 $$ LCL(n) = \frac{2n + 2.6^2-\sqrt{\left(2.6^2+2n \right)^2-4 \left(1-2.6^2 Sr^2 \right) n^2}}{2 \left(1-2.6^2 Sr^2 \right)} $$
 
