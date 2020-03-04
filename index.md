@@ -650,7 +650,7 @@ $$ LCL(n) = \frac{2n + 2.6^2-\sqrt{\left(2.6^2+2n \right)^2-4 \left(1-2.6^2 Sr^2
 $$ HCL(n) = \frac{2n + 1.8^2-\sqrt{\left(1.8^2+2n \right)^2-4 \left(1-1.8^2 Sr^2 \right) n^2}}{2 \left(1-1.8^2 Sr^2 \right)} $$
 
 
-where \n\ is the number of fibers detected, and \Sr\ is a “subjective inter-laboratory relative standard deviation, which is close to the total inter-laboratory \Sr\ when approximately 100 fibers are counted”.
+where \(n\) is the number of fibers detected, and \Sr\ is a “subjective inter-laboratory relative standard deviation, which is close to the total inter-laboratory \Sr\ when approximately 100 fibers are counted”.
 
 The latest revision of NIOSH 7400 states that “From these equations, the confidence limits accounting for both subjective microscopist and Poisson components for various fiber counts are calculated by taking \Sr = 0.2\. The intra- and inter- microscopist variability may be greater if quality control is poor”. Accordingly, xRfiber uses a value of \Sr = 0.2\, corresponding to a confidence interval of 0.95.
 
