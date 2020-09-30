@@ -3,6 +3,10 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
+<link rel="apple-touch-icon" href="https://xrapid-group.github.io/xrfiber/Pictures/Icons/touch-icon-iphone.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://xrapid-group.github.io/xrfiber/Pictures/Icons/touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://xrapid-group.github.io/xrfiber/Pictures/Icons/touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="167x167" href="https://xrapid-group.github.io/xrfiber/Pictures/Icons/touch-icon-ipad-retina.png">
 
 xRFiber Standard Operating Procedure
 ---
