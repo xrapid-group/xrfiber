@@ -7,7 +7,7 @@
 <link rel="apple-touch-icon" sizes="152x152" href="https://xrapid-group.github.io/xrfiber/Pictures/Icons/touch-icon-ipad.png">
 <link rel="apple-touch-icon" sizes="180x180" href="https://xrapid-group.github.io/xrfiber/Pictures/Icons/touch-icon-iphone-retina.png">
 <link rel="apple-touch-icon" sizes="167x167" href="https://xrapid-group.github.io/xrfiber/Pictures/Icons/touch-icon-ipad-retina.png">
-<link rel="shortcut icon" type="image/png" href="https://xrapid-group.github.io/xrfiber/Pictures/Icons/touch-icon-ipad-retina.png">
+<link rel="shortcut icon" type="image/png" href="https://xrapid-group.github.io/xrfiber/Pictures/Icons/touch-icon-ipad-retina.png?">
 
 xRFiber Standard Operating Procedure
 ---
