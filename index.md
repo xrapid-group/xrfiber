@@ -376,10 +376,12 @@ Figure 6.8. unbalanced (left) and perfectly flat orientations of the iPhone in i
 A schematic of the connections and plugs is given below. Although the xRfiber microscope can be driven in Bluetooth mode, it is recommended that one connects the iPad using the adapter to the Ethernet port. The wired connection enables faster and more stable transmissions of the instructions between the iPad and the microscope.
 
 ![][image-16]
+
 Figure 6.9. cable connections to the iPad and the microscope
 
 ## 6.2. Device (iPhone/iPad) setup
 
+### 6.2.1. Generic setup
 After going through Apple’s initialization guide, ensure the following:
 
 -   The device is logged into an iCloud account (this is required for location services to be active which is required for device use records).
@@ -388,6 +390,28 @@ After going through Apple’s initialization guide, ensure the following:
 Open the Apple App Store and select the Search tab in the bottom right of the screen. Search for “xRfiber” and the application should appear in the results list. Press the Install option and confirm the installation with your password/thumbprint. Once the application is installed, turn on the microscope and then open the application once the LED light source has finished blinking three times (approx. 3-5 seconds from powering on).
 
 **NOTE**: when the microscope is switched on, the light first blinks three times. It is an indicator that the Bluetooth has been initialized and the microscope is now ready to interact with the Software (the xRfiber app).
+
+### 6.2.2. Setting up the Ethernet connection
+When the microscope is to be operated through a wired connection, one follows the connection scheme described in 6.1.3. Irrespective of the connector that was provided in the package (availability of this connectors vary), the procedure will be the same:
+- in the iPad Settings, spot the “Ethernet” option when the USB-C adapter connects to the iPad
+- A blue “cable connection” icon will appear in the top bar and stay for about 5 seconds, then disappear
+- In the “Ethernet” thumb, under “Interfaces” the connector will appear
+- Getting into this connector settings will reveal options for “IPV4 ADDRESS”, “DNS” and “HTTP PROXY”
+- The correct settings are:
+	- IPV4 ADDRESS
+		- Configure IP: Manual
+		- IP address: 169.254.65.10
+		- Subnet mask: 255.255.0.0
+		- Router: 169.254.65.6
+	- DNS
+		- Configure DNS: Manual
+	- HTTP PROXY
+		- Configure Proxy: Off
+From that point onwards, when the Ethernet cable is connected to the iPad, the microscope will establish a network connection first.
+
+![][image-17]
+
+Video 6.1. setting up the Ethernet connection in iPad’s settings
 
 ## 6.3. Operating the software
 
@@ -410,7 +434,7 @@ Once a device is connected, the button (1) being circled, tapping the Bluetooth 
 
 **NOTE**: the Bluetooth functionality lets us discover the device based on the strength of the signal. If two devices are more than one meter apart, the iPhone/iPad will find the correct microscope, i.e. the microscope it is sitting on. If devices are closer, some mixing or confusion of signals may occur, and the device will have to be checked and connected manually using the pop up menu.
 
-![][image-17]
+![][image-18]
 
 Figure 6.10. Main screen in the disconnected state (left) and Bluetooth connected state (right)
 
@@ -446,7 +470,7 @@ The light button (10) is used to switch on/off the microscope light source. When
 
 The settings/options have 3 main categories, reached by tapping on the segmented control: User (1), Diagnostic (2), Print (3).
 
-![][image-18]
+![][image-19]
 
 Figure 6.11. Settings screens with the User (left), Diagnostic (middle) and Print (right) settings.
 
@@ -513,13 +537,13 @@ When entering the Measurement screen, the microscope light source will turn on a
 
 A default identifier (1) is automatically generated. It is grayed-out, and can be changed. Tapping this identifier will show the iOS keyboard (2), tapping the small X icon at the right of the field will dismiss all changes and the keyboard. Any identifier longer than one character can be entered. The case presented in Figure 6.11. enables the use of sequences: any string followed by a dash - and a number will be automatically followed by the the same string with the number incremented by one when the next test is launched. This is particularly useful when a file contains several samples with a resulting large number of slides.
 
-![][image-19]
+![][image-20]
 
 Figure 6.12. Starting a diagnostic with changing the default test identification
 
 The usual sequence is shown Figure 6.12: tap the Start Diagnostic hexagonal button (1), after which the diagnostic sequence executes automatically. One can adjust the position of the slide by tapping the Controls icon (2), which will bring up the in-plane control (3) and focus control (4). One can return to the start button by hitting the cross (5).
 
-![][image-20]
+![][image-21]
 
 Figure 6.13. Illustration of entering a Diagnostic screen (right), start position being set up (middle), and diagnostic running (right)
 
@@ -531,13 +555,13 @@ Notice that the next time the analysis is launched, the test identification will
 
 The results screen has a large number of potential actions, beyond displaying the results of a test (last or past). The unified results screen is the same whether one accesses it following the completion of a diagnostic or going back to it from a Test Log.
 
-![][image-21]
+![][image-22]
 
 Figure 6.14. Results screen
 
 From this screen, one can access a record of the images captured by tapping button (1), or the export options with button (2). The date and time of the test are displayed in (4) and the test identification in (3). Notice that at this point, it is impossible to change the test identification. When the results screen is accessed, it always opens on the raw numbers resulting from the measurement: the total number of fibers and fields, for instance. As such, the segmented control (5) will always be selected by default. To change this display, one can tap the segmented control in (6) for example, to obtain the values in fibers per mm2. The Fields Counts (7) present the position and numbers of each and every field measured. The large button (8) leads back to the Tests Log screen or the Main screen depending where the unified result was displayed from.
 
-![][image-22]
+![][image-23]
 
 Figure 6.15. Results screen (2)
 
@@ -552,20 +576,20 @@ When the volume has been entered, the fiber density will be displayed.
 
 Notice that in all displays of the results, the quantity of fibers as well as the minimum and maximum bounds defined by the associated standard are displayed.
 
-![][image-23]
+![][image-24]
 
 Figure 6.16. Statistics reports
 
 ![][24]As noted above, the fields counts are accessed from the Results screen. They indicate the number of debris and fibers measured in all the fields, together with their location. The plots on top can be swiped to display plots of the fiber distribution, the debris distribution. The fibers length vs. width is interesting as it gives an idea of the type of fibers one has measured. Both fiber and debris distributions are used to evaluate whether they follow a Poisson distribution (within 95% confidence), which is a measure of the randomness of the sample (and the base hypothesis of all standards).
 
-![][image-24]
+![][image-25]
 Figure 6.17. Reviewing and exporting images
 
 Depending upon options and version, the images of every field captured may be available from the Results screen. Navigation is quite standard for iOS, let us mention at least that one can pick and export images through that screen. Because of memory restrictions, one cannot select more than 50 pictures for export at a time. When an image is tapped, it is magnified. A double-tap on the magnified image will zoom in and out, pinch to zoom is enabled, and swiping to the right/left presents the next/previous image respectively.
 
 Exporting results is performed through the Action button. It opens a set of options, to share as an image (in PNG format), as a printable sheet (in PDF format), to print directly using the iOS print server, or to save as comma-separated-value (two options). The latter is used to export to Excel or Numbers or other spreadsheet software. xRfiber normally manages the export format according to locale settings (i.e. a distinction is made between decimal separator and column separator depending upon the localization of the device). Should your export results come out poorly, do not hesitate to contact support@xrapid-group.com.
 
-![][image-25]
+![][image-26]
 
 Figure 6.18. Results export options
 
@@ -605,7 +629,7 @@ Each xRfiber microscope is tested with a band 5 slide (option 2, green document)
 
 #### Results
 
-![][image-26]
+![][image-27]
 
 Figure 6.19. HSE-NPL slide bands as measured by the xRfiber unit
 
@@ -621,13 +645,13 @@ The scale and gratings/grids displayed are displayed by software, and factory ca
 
 The calibration factor for the images captures is 1415 pixels for 100µm. The maximum error permitted is ±5 pixels, that is approximately 0.35µm. The scale is checked for all microscopes on the app by simply imaging a square grid with a 50µm pitch and checking that the Walton Beckett graticule matches the spacing. In the image below the WB graticule is reasonably within 3 pixels of the grating limits.
 
-![][image-27]
+![][image-28]
 
 Figure 6.20. Application view of the 50µm square pitch graticule
 
 The image captured using the same process as the diagnostic is checked for scale: the image is 1800 pixels in both width and height, and the dimensions determined are marked on the image below.
 
-![][image-28]
+![][image-29]
 
 Figure 6.21. image captured of a 50µm square pitch graticule
 
@@ -647,7 +671,7 @@ xRfiber has been evaluated versus proficiency test slides. The conditions were s
 
 Samples from proficiency test rounds over the last two years were used, the results are shown below.
 
-![][image-29]
+![][image-30]
 
 Figure 6.22: plot of the results of the three repetitions with various random start positions versus the reference count of proficiency samples. The empty boxes represent the lower and upper acceptable bounds, while the bullets are the measurement results, color coded per run. The Reference Value and acceptable bounds are determined from a number of laboratories not taking part in the proficiency round, which have been known to provide a reliable analysis. From the results of those laboratories, an average value is calculated (the Reference Value), together with a standard deviation. The acceptable range is within three standard deviations.
 
@@ -672,15 +696,15 @@ The results obtained at some customer sites using xRfiber are reported in the th
 
 Table 6.1: Results of IHPAT round 217
 
-![][image-30]
+![][image-31]
 
 Table 6.2: Results of IHPAT round 218
 
-![][image-31]
+![][image-32]
 
 Table 6.3: Results of IHPAT round 219
 
-![][image-32]
+![][image-33]
 
 ## 6.5. Standard care and cleaning of the unit
 
@@ -1037,20 +1061,21 @@ Pang07: A new parameter to evaluate the quality of fiber count data of slides wi
 [image-13]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_7_c.png
 [image-14]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_7_d.png
 [image-15]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_8.png
-[image-16]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_8B.png
-[image-17]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_9.png
-[image-18]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_10.png
-[image-19]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_11.png
-[image-20]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_12.png
-[image-21]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_13.png
-[image-22]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_14.png
-[image-23]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_15.png
-[image-24]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_16.png
-[image-25]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_17.png
-[image-26]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_19.png
-[image-27]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_20.png
-[image-28]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_21.png
-[image-29]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_22.png
-[image-30]:	https://xrapid-group.github.io/xrfiber/Pictures/Table_6_1.png
-[image-31]:	https://xrapid-group.github.io/xrfiber/Pictures/Table_6_2.png
-[image-32]:	https://xrapid-group.github.io/xrfiber/Pictures/Table_6_3.png
+[image-16]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_8B.jpg
+[image-17]:	https://xrapid-group.github.io/xrfiber/Pictures/Ethernet_connection.mp4
+[image-18]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_9.png
+[image-19]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_10.png
+[image-20]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_11.png
+[image-21]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_12.png
+[image-22]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_13.png
+[image-23]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_14.png
+[image-24]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_15.png
+[image-25]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_16.png
+[image-26]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_17.png
+[image-27]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_19.png
+[image-28]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_20.png
+[image-29]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_21.png
+[image-30]:	https://xrapid-group.github.io/xrfiber/Pictures/Figure_6_22.png
+[image-31]:	https://xrapid-group.github.io/xrfiber/Pictures/Table_6_1.png
+[image-32]:	https://xrapid-group.github.io/xrfiber/Pictures/Table_6_2.png
+[image-33]:	https://xrapid-group.github.io/xrfiber/Pictures/Table_6_3.png
