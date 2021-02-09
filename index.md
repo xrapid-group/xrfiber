@@ -14,7 +14,7 @@ xRFiber Standard Operating Procedure
 
 Document Revision: 1.1
 
-App Version: 1.60 Build: 597
+App Version: 1.93 Build: 663
 
 # 1. PURPOSE
 
