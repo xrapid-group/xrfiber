@@ -12,9 +12,9 @@
 xRFiber Standard Operating Procedure
 ---
 
-Document Revision: 1.1
+Document Revision: 1.2
 
-App Version: 1.93 Build: 663
+App Version: 2.0 Build: 667
 
 # 1. PURPOSE
 
@@ -468,17 +468,17 @@ The light button (10) is used to switch on/off the microscope light source. When
 
 #### 6.3.2.1. Overview
 
-The settings/options have 3 main categories, reached by tapping on the segmented control: User (1), Diagnostic (2), Print (3).
+The settings/options have 4 main categories, reached by tapping on the segmented control: Practitioner (1), Diagnostic (2), Print (3), Institution (4).
 
 ![][image-19]
 
-Figure 6.11. Settings screens with the User (left), Diagnostic (middle) and Print (right) settings.
+Figure 6.11. Settings screens with the Practitioner (left), Diagnostic (center left),  Print (center right) and Institution settings.
 
-Notice at the bottom (4) the version and Build number between parentheses — communicate those when requesting support.
+Notice at the bottom (8) the version and Build number between parentheses — communicate those to xRapid when requesting support.
 
 All changes need to be validated, by hitting the Save button at the bottom right of the screen. Cancelling restores the last saved options.
 
-#### 6.3.2.2. User
+#### 6.3.2.2. Practitioner
 
 All the users informations are private, and not exchanged with xRapid-Group: they are mainly used for app-generated reports, and QC/QA purposes. The printed, PDF or CSV reports will have all the information the user has entered in this section.
 
@@ -511,11 +511,11 @@ All standards have been checked and tested against proficiency and live samples.
 
 Three entries are possible to customize the tests:
 
--   The field blank value: following the user’s SOP, one may use a field blank correction. This correction is a number of fibers that need to be subtracted from the total number of fibers per 100 fields, and follows the recommendation NIOSH 7400. It will be subsequently applied to all new tests;
+-   The field blank value (5): following the user’s SOP, one may use a field blank correction. This correction is a number of fibers that need to be subtracted from the total number of fibers per 100 fields, and follows the recommendation NIOSH 7400. It will be subsequently applied to all new tests;
 
--   The capture scale, in pixels per micrometer: this value is calibrated using a traceable micrometer slide before shipping to the customer, and checked during first deployment and any servicing of the machine. Normal value is 14.1 with a maximum error of 0.5%. It is recommended that this value is checked once a month.
+-   The capture zoom correction (8), no unit: this value is calibrated using a traceable micrometer slide before shipping to the customer, and checked during first deployment and any servicing of the machine. Normal value is between 1.0 and 1.03. This should be checked with a micrometer slide and yield a maximum error of 0.5%. It is recommended that this value is checked once a month.
 
--   Number of Walton-Beckett graticules: the newest iPad Pro 11’’ are capable of large computations, and as such it does make sense to measure more than one field per image captured. The image resolution is not changing between the two modes, and we can benefit from adding a second graticule, i.e. using the image captured for two fields instead of one. When doing so, we perform half the movements and therefore gain all these displacement times. In the case where two graticules are used, one should check that the scale is the same for both, or refrain from using two if this is the case. Should both graticules not have the same scale, the user should contact [support@xrapid-group.com][3] for immediate intervention/remediation.
+-   Number of Walton-Beckett graticules (7): the newest iPad Pro 11’’ and iPad Air 4 are capable of large computations, and as such it does make sense to measure more than one field per image captured. The image resolution is not changing between the two modes, and we can benefit from adding a second graticule, i.e. using the image captured for two fields instead of one. When doing so, we perform half the movements and therefore gain all these displacement times. In the case where two graticules are used, one should check that the scale is the same for both, or refrain from using two if this is the case. Should both graticules not have the same scale, the user should contact [support@xrapid-group.com][3] for immediate intervention/remediation.
 
 Notice that those last three settings are entirely optional.
 
@@ -528,6 +528,10 @@ The easiest way to generate reports is to print them directly from the app. xRfi
 xRfiber can print reports in color or monochrome, on A4 and US Letter paper. Should your printer handle double-sided prints, xRfiber will comply.
 
 While most users want to export their results to a CSV (Comma Separated Values) file compatible with Excel or Numbers, it is useful for quality purposes to keep a daily log of the machine, and print it out at the end of the day. xRfiber facilitates this operation by letting the user select all the records of the day in the Tests Log to export or print them out.
+
+#### 6.3.2.5. Institution
+
+This last setting is where the institution logs in and eventually changes its coordinates. Those are used to produce customized reports with the name, address and logo of the institution. The username and password are fixed, and provided to the user by xRapid during installation. To login or logout, one needs to swipe down to access the button.
 
 ### 6.3.3. Measurement screen
 
@@ -571,6 +575,8 @@ Important notes:
 
 -   the volume cannot be changed after it has been set, obviously
 -   once the fibers/cc segmented control is tapped one **must** enter a volume.
+
+** Important **: the volume entered should always be greater than zero — this leads to the fiber volume fraction being NaN (which stands for Not a Number) and is not acceptable in a report — as this creates an indeterminate response. This is valid for blanks as well. If no volume was used to sample the blank, simply use any value greater than zero. As a general rule blanks should be sampled in a fiber free environment for a volume in the same range as the samples measured.
 
 When the volume has been entered, the fiber density will be displayed.
 
